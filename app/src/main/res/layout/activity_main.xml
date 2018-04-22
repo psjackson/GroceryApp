@@ -1,0 +1,476 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.pjackson.groceryapp.MainActivity">
+
+    <TextView
+        android:id="@+id/txtAppHeading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/app_heading"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtPageOneDesc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/app_page1_desc"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
+        android:textSize="14sp"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtAppHeading" />
+
+    <TextView
+        android:id="@+id/txtItemTitle1"
+        android:layout_width="52dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/itemOne"
+        android:textColor="@color/colorPrimary"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtPageOneDesc" />
+
+    <TextView
+        android:id="@+id/txtItemTitle2"
+        android:layout_width="52dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="21dp"
+        android:text="@string/itemTwo"
+        android:textColor="@color/colorPrimary"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtItemTitle1" />
+
+    <TextView
+        android:id="@+id/txtItemTitle3"
+        android:layout_width="52dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="21dp"
+        android:text="@string/itemThree"
+        android:textColor="@color/colorPrimary"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtItemTitle2" />
+
+    <TextView
+        android:id="@+id/txtItemTitle4"
+        android:layout_width="52dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="21dp"
+        android:text="@string/itemFour"
+        android:textColor="@color/colorPrimary"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtItemTitle3" />
+
+    <TextView
+        android:id="@+id/txtItemTitle5"
+        android:layout_width="52dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="21dp"
+        android:text="@string/itemFive"
+        android:textColor="@color/colorPrimary"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtItemTitle4" />
+
+    <TextView
+        android:id="@+id/txtItemTitle6"
+        android:layout_width="52dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="21dp"
+        android:text="@string/itemSix"
+        android:textColor="@color/colorPrimary"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtItemTitle5" />
+
+    <TextView
+        android:id="@+id/txtItemTitle7"
+        android:layout_width="52dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="21dp"
+        android:text="@string/itemSeven"
+        android:textColor="@color/colorPrimary"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtItemTitle6" />
+
+    <TextView
+        android:id="@+id/txtItemTitle8"
+        android:layout_width="52dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="21dp"
+        android:text="@string/itemEight"
+        android:textColor="@color/colorPrimary"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtItemTitle7" />
+
+    <TextView
+        android:id="@+id/txtItemTitle9"
+        android:layout_width="52dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="21dp"
+        android:text="@string/itemNine"
+        android:textColor="@color/colorPrimary"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtItemTitle8" />
+
+    <TextView
+        android:id="@+id/txtItemTitle10"
+        android:layout_width="52dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="21dp"
+        android:text="@string/itemTen"
+        android:textColor="@color/colorPrimary"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtItemTitle9" />
+
+    <Spinner
+        android:id="@+id/spnQtyItem1"
+        android:layout_width="82dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:entries="@array/itemQty"
+        app:layout_constraintStart_toEndOf="@+id/txtItemTitle1"
+        app:layout_constraintTop_toBottomOf="@+id/txtPageOneDesc" />
+
+    <Spinner
+        android:id="@+id/spnQtyItem2"
+        android:layout_width="82dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:entries="@array/itemQty"
+        app:layout_constraintStart_toEndOf="@+id/txtItemTitle2"
+        app:layout_constraintTop_toBottomOf="@+id/spnQtyItem1" />
+
+    <Spinner
+        android:id="@+id/spnQtyItem3"
+        android:layout_width="82dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="15dp"
+        android:entries="@array/itemQty"
+        app:layout_constraintStart_toEndOf="@+id/txtItemTitle3"
+        app:layout_constraintTop_toBottomOf="@+id/spnQtyItem2" />
+
+    <Spinner
+        android:id="@+id/spnQtyItem4"
+        android:layout_width="82dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:entries="@array/itemQty"
+        app:layout_constraintStart_toEndOf="@+id/txtItemTitle4"
+        app:layout_constraintTop_toBottomOf="@+id/spnQtyItem3" />
+
+    <Spinner
+        android:id="@+id/spnQtyItem5"
+        android:layout_width="82dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="15dp"
+        android:entries="@array/itemQty"
+        app:layout_constraintStart_toEndOf="@+id/txtItemTitle5"
+        app:layout_constraintTop_toBottomOf="@+id/spnQtyItem4" />
+
+    <Spinner
+        android:id="@+id/spnQtyItem6"
+        android:layout_width="82dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:entries="@array/itemQty"
+        app:layout_constraintStart_toEndOf="@+id/txtItemTitle6"
+        app:layout_constraintTop_toBottomOf="@+id/spnQtyItem5" />
+
+    <Spinner
+        android:id="@+id/spnQtyItem7"
+        android:layout_width="82dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="15dp"
+        android:entries="@array/itemQty"
+        app:layout_constraintStart_toEndOf="@+id/txtItemTitle7"
+        app:layout_constraintTop_toBottomOf="@+id/spnQtyItem6" />
+
+    <Spinner
+        android:id="@+id/spnQtyItem8"
+        android:layout_width="82dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:entries="@array/itemQty"
+        app:layout_constraintStart_toEndOf="@+id/txtItemTitle8"
+        app:layout_constraintTop_toBottomOf="@+id/spnQtyItem7" />
+
+    <Spinner
+        android:id="@+id/spnQtyItem9"
+        android:layout_width="82dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="15dp"
+        android:entries="@array/itemQty"
+        app:layout_constraintStart_toEndOf="@+id/txtItemTitle9"
+        app:layout_constraintTop_toBottomOf="@+id/spnQtyItem8" />
+
+    <Spinner
+        android:id="@+id/spnQtyItem10"
+        android:layout_width="82dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:entries="@array/itemQty"
+        app:layout_constraintStart_toEndOf="@+id/txtItemTitle10"
+        app:layout_constraintTop_toBottomOf="@+id/spnQtyItem9" />
+
+    <EditText
+        android:id="@+id/txtItemDesc1"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:ems="10"
+        android:hint="e.g. dozen eggs"
+        android:inputType="textPersonName"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/spnQtyItem1"
+        app:layout_constraintTop_toBottomOf="@+id/txtPageOneDesc" />
+
+    <EditText
+        android:id="@+id/txtItemDesc2"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:ems="10"
+        android:hint="e.g. pint of milk"
+        android:inputType="textPersonName"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/spnQtyItem2"
+        app:layout_constraintTop_toBottomOf="@+id/txtItemDesc1" />
+
+    <EditText
+        android:id="@+id/txtItemDesc3"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:ems="10"
+        android:hint="etc"
+        android:inputType="textPersonName"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/spnQtyItem3"
+        app:layout_constraintTop_toBottomOf="@+id/txtItemDesc2" />
+
+    <EditText
+        android:id="@+id/txtItemDesc4"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/spnQtyItem4"
+        app:layout_constraintTop_toBottomOf="@+id/txtItemDesc3" />
+
+    <EditText
+        android:id="@+id/txtItemDesc5"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/spnQtyItem5"
+        app:layout_constraintTop_toBottomOf="@+id/txtItemDesc4" />
+
+    <EditText
+        android:id="@+id/txtItemDesc6"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/spnQtyItem6"
+        app:layout_constraintTop_toBottomOf="@+id/txtItemDesc5" />
+
+    <EditText
+        android:id="@+id/txtItemDesc7"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/spnQtyItem7"
+        app:layout_constraintTop_toBottomOf="@+id/txtItemDesc6" />
+
+    <EditText
+        android:id="@+id/txtItemDesc8"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/spnQtyItem8"
+        app:layout_constraintTop_toBottomOf="@+id/txtItemDesc7" />
+
+    <EditText
+        android:id="@+id/txtItemDesc9"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/spnQtyItem9"
+        app:layout_constraintTop_toBottomOf="@+id/txtItemDesc8" />
+
+    <EditText
+        android:id="@+id/txtItemDesc10"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/spnQtyItem10"
+        app:layout_constraintTop_toBottomOf="@+id/txtItemDesc9" />
+
+    <Switch
+        android:id="@+id/swtItem1"
+        android:layout_width="44dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="8dp"
+        android:checked="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtPageOneDesc" />
+
+    <Switch
+        android:id="@+id/swtItem2"
+        android:layout_width="44dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="8dp"
+        android:checked="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/swtItem1" />
+
+    <Switch
+        android:id="@+id/swtItem3"
+        android:layout_width="44dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="8dp"
+        android:checked="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/swtItem2" />
+
+    <Switch
+        android:id="@+id/swtItem4"
+        android:layout_width="44dp"
+        android:layout_height="39dp"
+        android:layout_marginEnd="8dp"
+        android:checked="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/swtItem3" />
+
+    <Switch
+        android:id="@+id/swtItem5"
+        android:layout_width="44dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="8dp"
+        android:checked="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/swtItem4" />
+
+    <Switch
+        android:id="@+id/swtItem6"
+        android:layout_width="44dp"
+        android:layout_height="39dp"
+        android:layout_marginEnd="8dp"
+        android:checked="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/swtItem5" />
+
+    <Switch
+        android:id="@+id/swtItem7"
+        android:layout_width="44dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="8dp"
+        android:checked="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/swtItem6" />
+
+    <Switch
+        android:id="@+id/swtItem8"
+        android:layout_width="44dp"
+        android:layout_height="39dp"
+        android:layout_marginEnd="8dp"
+        android:checked="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/swtItem7" />
+
+    <Switch
+        android:id="@+id/swtItem9"
+        android:layout_width="44dp"
+        android:layout_height="39dp"
+        android:layout_marginEnd="8dp"
+        android:checked="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/swtItem8" />
+
+    <Switch
+        android:id="@+id/swtItem10"
+        android:layout_width="44dp"
+        android:layout_height="39dp"
+        android:layout_marginEnd="8dp"
+        android:checked="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/swtItem9" />
+
+    <Button
+        android:id="@+id/btnPage1Clear"
+        android:layout_width="wrap_content"
+        android:layout_height="36dp"
+        android:layout_marginBottom="24dp"
+        android:layout_marginStart="52dp"
+        android:text="@string/btnPage1Clear"
+        android:textColor="@android:color/holo_purple"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btnPage1Done"
+        android:layout_width="wrap_content"
+        android:layout_height="36dp"
+        android:layout_marginBottom="24dp"
+        android:layout_marginEnd="52dp"
+        android:text="@string/btnPageDone"
+        android:textColor="@color/colorPrimary"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</android.support.constraint.ConstraintLayout>

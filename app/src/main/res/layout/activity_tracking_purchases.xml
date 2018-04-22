@@ -1,0 +1,593 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.pjackson.groceryapp.TrackingPurchases">
+
+    <TextView
+        android:id="@+id/txtAppHeading2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/app_heading"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtPageOneDesc2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:text="@string/app_page2_desc2"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
+        android:textSize="14sp"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtPageOneDesc3" />
+
+    <TextView
+        android:id="@+id/txtPageOneDesc3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="12dp"
+        android:text="@string/app_page2_desc"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
+        android:textSize="14sp"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtAppHeading2" />
+
+    <TextView
+        android:id="@+id/txtItem1Qty2"
+        android:layout_width="32dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="9dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtPageOneDesc2" />
+
+    <TextView
+        android:id="@+id/txtItem2Qty2"
+        android:layout_width="32dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="22dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtItem1Qty2" />
+
+    <TextView
+        android:id="@+id/txtItem3Qty2"
+        android:layout_width="32dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="22dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtItem2Qty2" />
+
+    <TextView
+        android:id="@+id/txtItem4Qty2"
+        android:layout_width="32dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="21dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtItem3Qty2" />
+
+    <TextView
+        android:id="@+id/txtItem5Qty2"
+        android:layout_width="32dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="21dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtItem4Qty2" />
+
+    <TextView
+        android:id="@+id/txtItem6Qty2"
+        android:layout_width="32dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="22dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtItem5Qty2" />
+
+    <TextView
+        android:id="@+id/txtItem7Qty2"
+        android:layout_width="32dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="21dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtItem6Qty2" />
+
+    <TextView
+        android:id="@+id/txtItem8Qty2"
+        android:layout_width="32dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="21dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtItem7Qty2" />
+
+    <TextView
+        android:id="@+id/txtItem9Qty2"
+        android:layout_width="32dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="21dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtItem8Qty2" />
+
+    <TextView
+        android:id="@+id/txtItem10Qty2"
+        android:layout_width="32dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="21dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtItem9Qty2" />
+
+    <TextView
+        android:id="@+id/txtItem1Desc2"
+        android:layout_width="150dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toStartOf="@+id/txtItem1Cost"
+        app:layout_constraintStart_toEndOf="@+id/txtItem1Qty2"
+        app:layout_constraintTop_toBottomOf="@+id/txtPageOneDesc2" />
+
+    <TextView
+        android:id="@+id/txtItem2Desc2"
+        android:layout_width="150dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="15dp"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toStartOf="@+id/txtItem2Cost"
+        app:layout_constraintStart_toEndOf="@+id/txtItem2Qty2"
+        app:layout_constraintTop_toBottomOf="@+id/txtItem1Desc2" />
+
+    <TextView
+        android:id="@+id/txtItem3Desc2"
+        android:layout_width="150dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="15dp"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toStartOf="@+id/txtItem3Cost"
+        app:layout_constraintStart_toEndOf="@+id/txtItem3Qty2"
+        app:layout_constraintTop_toBottomOf="@+id/txtItem2Desc2" />
+
+    <TextView
+        android:id="@+id/txtItem4Desc2"
+        android:layout_width="150dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="15dp"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toStartOf="@+id/txtItem4Cost"
+        app:layout_constraintStart_toEndOf="@+id/txtItem4Qty2"
+        app:layout_constraintTop_toBottomOf="@+id/txtItem3Desc2" />
+
+    <TextView
+        android:id="@+id/txtItem5Desc2"
+        android:layout_width="150dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="21dp"
+        app:layout_constraintEnd_toStartOf="@+id/txtItem5Cost"
+        app:layout_constraintStart_toEndOf="@+id/txtItem5Qty2"
+        app:layout_constraintTop_toBottomOf="@+id/txtItem4Desc2" />
+
+    <TextView
+        android:id="@+id/txtItem6Desc2"
+        android:layout_width="150dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="21dp"
+        app:layout_constraintEnd_toStartOf="@+id/txtItem6Cost"
+        app:layout_constraintStart_toEndOf="@+id/txtItem6Qty2"
+        app:layout_constraintTop_toBottomOf="@+id/txtItem5Desc2" />
+
+    <TextView
+        android:id="@+id/txtItem7Desc2"
+        android:layout_width="150dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="21dp"
+        app:layout_constraintEnd_toStartOf="@+id/txtItem7Cost"
+        app:layout_constraintStart_toEndOf="@+id/txtItem7Qty2"
+        app:layout_constraintTop_toBottomOf="@+id/txtItem6Desc2" />
+
+    <TextView
+        android:id="@+id/txtItem8Desc2"
+        android:layout_width="150dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="21dp"
+        app:layout_constraintEnd_toStartOf="@+id/txtItem8Cost"
+        app:layout_constraintStart_toEndOf="@+id/txtItem8Qty2"
+        app:layout_constraintTop_toBottomOf="@+id/txtItem7Desc2" />
+
+    <TextView
+        android:id="@+id/txtItem9Desc2"
+        android:layout_width="150dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="21dp"
+        app:layout_constraintEnd_toStartOf="@+id/txtItem9Cost"
+        app:layout_constraintStart_toEndOf="@+id/txtItem9Qty2"
+        app:layout_constraintTop_toBottomOf="@+id/txtItem8Desc2" />
+
+    <TextView
+        android:id="@+id/txtItem10Desc2"
+        android:layout_width="150dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="21dp"
+        app:layout_constraintEnd_toStartOf="@+id/txtItem10Cost"
+        app:layout_constraintStart_toEndOf="@+id/txtItem10Qty2"
+        app:layout_constraintTop_toBottomOf="@+id/txtItem9Desc2" />
+
+    <EditText
+        android:id="@+id/txtItem1Cost"
+        android:layout_width="80dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toStartOf="@+id/swtItem1Cost"
+        app:layout_constraintHorizontal_chainStyle="spread_inside"
+        app:layout_constraintStart_toEndOf="@+id/txtItem1Desc2"
+        app:layout_constraintTop_toBottomOf="@+id/txtPageOneDesc2" />
+
+    <EditText
+        android:id="@+id/txtItem2Cost"
+        android:layout_width="80dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toStartOf="@+id/swtItem2Cost"
+        app:layout_constraintHorizontal_chainStyle="spread_inside"
+        app:layout_constraintStart_toEndOf="@+id/txtItem2Desc2"
+        app:layout_constraintTop_toBottomOf="@+id/txtItem1Cost" />
+
+    <EditText
+        android:id="@+id/txtItem3Cost"
+        android:layout_width="80dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toStartOf="@+id/swtItem3Cost"
+        app:layout_constraintHorizontal_chainStyle="spread_inside"
+        app:layout_constraintStart_toEndOf="@+id/txtItem3Desc2"
+        app:layout_constraintTop_toBottomOf="@+id/txtItem2Cost" />
+
+    <EditText
+        android:id="@+id/txtItem4Cost"
+        android:layout_width="80dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toStartOf="@+id/swtItem4Cost"
+        app:layout_constraintStart_toEndOf="@+id/txtItem4Desc2"
+        app:layout_constraintTop_toBottomOf="@+id/txtItem3Cost" />
+
+    <EditText
+        android:id="@+id/txtItem5Cost"
+        android:layout_width="80dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toStartOf="@+id/swtItem5Cost"
+        app:layout_constraintStart_toEndOf="@+id/txtItem5Desc2"
+        app:layout_constraintTop_toBottomOf="@+id/txtItem4Cost" />
+
+    <EditText
+        android:id="@+id/txtItem6Cost"
+        android:layout_width="80dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toStartOf="@+id/swtItem6Cost"
+        app:layout_constraintStart_toEndOf="@+id/txtItem6Desc2"
+        app:layout_constraintTop_toBottomOf="@+id/txtItem5Cost" />
+
+    <EditText
+        android:id="@+id/txtItem7Cost"
+        android:layout_width="80dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toStartOf="@+id/swtItem7Cost"
+        app:layout_constraintStart_toEndOf="@+id/txtItem7Desc2"
+        app:layout_constraintTop_toBottomOf="@+id/txtItem6Cost" />
+
+    <EditText
+        android:id="@+id/txtItem8Cost"
+        android:layout_width="80dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toStartOf="@+id/swtItem8Cost"
+        app:layout_constraintStart_toEndOf="@+id/txtItem8Desc2"
+        app:layout_constraintTop_toBottomOf="@+id/txtItem7Cost" />
+
+    <EditText
+        android:id="@+id/txtItem9Cost"
+        android:layout_width="80dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toStartOf="@+id/swtItem9Cost"
+        app:layout_constraintStart_toEndOf="@+id/txtItem9Desc2"
+        app:layout_constraintTop_toBottomOf="@+id/txtItem8Cost" />
+
+    <EditText
+        android:id="@+id/txtItem10Cost"
+        android:layout_width="80dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toStartOf="@+id/swtItem10Cost"
+        app:layout_constraintStart_toEndOf="@+id/txtItem10Desc2"
+        app:layout_constraintTop_toBottomOf="@+id/txtItem9Cost" />
+
+    <Switch
+        android:id="@+id/swtItem1Cost"
+        android:layout_width="wrap_content"
+        android:layout_height="39dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        app:layout_constraintEnd_toStartOf="@+id/cBoxItem1"
+        app:layout_constraintStart_toEndOf="@+id/txtItem1Cost"
+        app:layout_constraintTop_toBottomOf="@+id/txtPageOneDesc2" />
+
+    <Switch
+        android:id="@+id/swtItem2Cost"
+        android:layout_width="wrap_content"
+        android:layout_height="39dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        app:layout_constraintEnd_toStartOf="@+id/cBoxItem2"
+        app:layout_constraintStart_toEndOf="@+id/txtItem2Cost"
+        app:layout_constraintTop_toBottomOf="@+id/swtItem1Cost" />
+
+    <Switch
+        android:id="@+id/swtItem3Cost"
+        android:layout_width="wrap_content"
+        android:layout_height="39dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        app:layout_constraintEnd_toStartOf="@+id/cBoxItem3"
+        app:layout_constraintStart_toEndOf="@+id/txtItem3Cost"
+        app:layout_constraintTop_toBottomOf="@+id/swtItem2Cost" />
+
+    <Switch
+        android:id="@+id/swtItem4Cost"
+        android:layout_width="wrap_content"
+        android:layout_height="39dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        app:layout_constraintEnd_toStartOf="@+id/cBoxItem4"
+        app:layout_constraintStart_toEndOf="@+id/txtItem4Cost"
+        app:layout_constraintTop_toBottomOf="@+id/swtItem3Cost" />
+
+    <Switch
+        android:id="@+id/swtItem5Cost"
+        android:layout_width="wrap_content"
+        android:layout_height="39dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        app:layout_constraintEnd_toStartOf="@+id/cBoxItem5"
+        app:layout_constraintStart_toEndOf="@+id/txtItem5Cost"
+        app:layout_constraintTop_toBottomOf="@+id/swtItem4Cost" />
+
+    <Switch
+        android:id="@+id/swtItem6Cost"
+        android:layout_width="wrap_content"
+        android:layout_height="39dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        app:layout_constraintEnd_toStartOf="@+id/cBoxItem6"
+        app:layout_constraintStart_toEndOf="@+id/txtItem6Cost"
+        app:layout_constraintTop_toBottomOf="@+id/swtItem5Cost" />
+
+    <Switch
+        android:id="@+id/swtItem7Cost"
+        android:layout_width="wrap_content"
+        android:layout_height="39dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        app:layout_constraintEnd_toStartOf="@+id/cBoxItem7"
+        app:layout_constraintStart_toEndOf="@+id/txtItem7Cost"
+        app:layout_constraintTop_toBottomOf="@+id/swtItem6Cost" />
+
+    <Switch
+        android:id="@+id/swtItem8Cost"
+        android:layout_width="wrap_content"
+        android:layout_height="39dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        app:layout_constraintEnd_toStartOf="@+id/cBoxItem8"
+        app:layout_constraintStart_toEndOf="@+id/txtItem8Cost"
+        app:layout_constraintTop_toBottomOf="@+id/swtItem7Cost" />
+
+    <Switch
+        android:id="@+id/swtItem9Cost"
+        android:layout_width="wrap_content"
+        android:layout_height="39dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        app:layout_constraintEnd_toStartOf="@+id/cBoxItem9"
+        app:layout_constraintStart_toEndOf="@+id/txtItem9Cost"
+        app:layout_constraintTop_toBottomOf="@+id/swtItem8Cost" />
+
+    <Switch
+        android:id="@+id/swtItem10Cost"
+        android:layout_width="wrap_content"
+        android:layout_height="39dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        app:layout_constraintEnd_toStartOf="@+id/cBoxItem10"
+        app:layout_constraintStart_toEndOf="@+id/txtItem10Cost"
+        app:layout_constraintTop_toBottomOf="@+id/swtItem9Cost" />
+
+    <CheckBox
+        android:id="@+id/cBoxItem1"
+        android:layout_width="wrap_content"
+        android:layout_height="39dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtPageOneDesc2" />
+
+    <CheckBox
+        android:id="@+id/cBoxItem2"
+        android:layout_width="wrap_content"
+        android:layout_height="39dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cBoxItem1" />
+
+    <CheckBox
+        android:id="@+id/cBoxItem3"
+        android:layout_width="wrap_content"
+        android:layout_height="39dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cBoxItem2" />
+
+    <CheckBox
+        android:id="@+id/cBoxItem4"
+        android:layout_width="wrap_content"
+        android:layout_height="39dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cBoxItem3" />
+
+    <CheckBox
+        android:id="@+id/cBoxItem5"
+        android:layout_width="wrap_content"
+        android:layout_height="39dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cBoxItem4" />
+
+    <CheckBox
+        android:id="@+id/cBoxItem6"
+        android:layout_width="wrap_content"
+        android:layout_height="39dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cBoxItem5" />
+
+    <CheckBox
+        android:id="@+id/cBoxItem7"
+        android:layout_width="wrap_content"
+        android:layout_height="39dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cBoxItem6" />
+
+    <CheckBox
+        android:id="@+id/cBoxItem8"
+        android:layout_width="wrap_content"
+        android:layout_height="39dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cBoxItem7" />
+
+    <CheckBox
+        android:id="@+id/cBoxItem9"
+        android:layout_width="wrap_content"
+        android:layout_height="39dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cBoxItem8" />
+
+    <CheckBox
+        android:id="@+id/cBoxItem10"
+        android:layout_width="wrap_content"
+        android:layout_height="39dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cBoxItem9" />
+
+    <Button
+        android:id="@+id/btnPage2Back"
+        android:layout_width="wrap_content"
+        android:layout_height="36dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginStart="52dp"
+        android:text="@string/btnPageBack"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btnPage2Done"
+        android:layout_width="wrap_content"
+        android:layout_height="36dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="52dp"
+        android:text="@string/btnPageDone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</android.support.constraint.ConstraintLayout>

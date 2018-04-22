@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Grocery App</string>
+    <string name="app_heading">Grocery Tracking App</string>
+    <string name="app_page1_desc">Enter items and quantities in the spaces below. Toggle, on the right, each item you wish to track, then click next.</string>
+    <string name="itemOne">Item 1:</string>
+    <string name="itemTwo">Item 2:</string>
+    <string name="itemThree">Item 3:</string>
+    <string name="itemFour">Item 4:</string>
+    <string name="itemFive">Item 5:</string>
+    <string name="itemSix">Item 6:</string>
+    <string name="itemSeven">Item 7:</string>
+    <string name="itemEight">Item 8:</string>
+    <string name="itemNine">Item 9:</string>
+    <string name="itemTen">Item 10:</string>
+    <string-array name="itemQty">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+    <string name="btnPage1Clear">Reset</string>
+    <string name="btnPageDone">Next</string>
+    <string name="btnPageBack">Back</string>
+    <string name="app_page2_desc">The below items are the ones you selected to track. Check each one as you purchase it and select the cost.</string>
+    <string name="app_page2_desc2">Toggling the switch next to an item to on, will cause the app to multiple the cost by the number of items, leaving it off will mean it will count it as the total cost.</string>
+</resources>
