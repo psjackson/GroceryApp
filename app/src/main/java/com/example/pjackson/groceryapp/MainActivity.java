@@ -1,9 +1,11 @@
 package com.example.pjackson.groceryapp;
 
+import android.content.Context;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.view.inputmethod.InputMethodManager;
 import android.widget.Button;
 import android.widget.CompoundButton;
 import android.widget.EditText;
@@ -16,8 +18,8 @@ public class MainActivity extends AppCompatActivity {
     ArrayList<String> itemsList = new ArrayList<>();
     ArrayList<String> qtysList = new ArrayList<>();
 
-    EditText item1Type, item2Type, item3Type, item4Type, item5Type, item6Type, item7Type, item8Type, item9Type, item10Type;
-    Spinner item1Qty, item2Qty, item3Qty, item4Qty, item5Qty, item6Qty, item7Qty, item8Qty, item9Qty, item10Qty;
+//    EditText item1Type, item2Type, item3Type, item4Type, item5Type, item6Type, item7Type, item8Type, item9Type, item10Type;
+//    Spinner item1Qty, item2Qty, item3Qty, item4Qty, item5Qty, item6Qty, item7Qty, item8Qty, item9Qty, item10Qty;
 //    Switch item1Next, item2Next, item3Next, item4Next, item5Next, item6Next, item7Next, item8Next, item9Next, item10Next;
 
     @Override
@@ -141,6 +143,10 @@ public class MainActivity extends AppCompatActivity {
             public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
                 String myItemQty = item1Qty.getSelectedItem().toString();
                 String myItemType = item1Type.getText().toString();
+                View focus = getCurrentFocus();
+                if (focus != null) {
+                    hiddenKeyboard(focus);
+                }
                 if(myItemQty.matches("0") || myItemType.matches("")){
                     item1Next.setChecked(false);
                     Toast.makeText(MainActivity.this, "Both the item description and quantity need to be set.", Toast.LENGTH_SHORT).show();
@@ -153,6 +159,10 @@ public class MainActivity extends AppCompatActivity {
             public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
                 String myItemQty = item2Qty.getSelectedItem().toString();
                 String myItemType = item2Type.getText().toString();
+                View focus = getCurrentFocus();
+                if (focus != null) {
+                    hiddenKeyboard(focus);
+                }
                 if(myItemQty.matches("0") || myItemType.matches("")){
                     item2Next.setChecked(false);
                     Toast.makeText(MainActivity.this, "Both the item description and quantity need to be set.", Toast.LENGTH_SHORT).show();
@@ -165,6 +175,10 @@ public class MainActivity extends AppCompatActivity {
             public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
                 String myItemQty = item3Qty.getSelectedItem().toString();
                 String myItemType = item3Type.getText().toString();
+                View focus = getCurrentFocus();
+                if (focus != null) {
+                    hiddenKeyboard(focus);
+                }
                 if(myItemQty.matches("0") || myItemType.matches("")){
                     item3Next.setChecked(false);
                     Toast.makeText(MainActivity.this, "Both the item description and quantity need to be set.", Toast.LENGTH_SHORT).show();
@@ -177,6 +191,10 @@ public class MainActivity extends AppCompatActivity {
             public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
                 String myItemQty = item4Qty.getSelectedItem().toString();
                 String myItemType = item4Type.getText().toString();
+                View focus = getCurrentFocus();
+                if (focus != null) {
+                    hiddenKeyboard(focus);
+                }
                 if(myItemQty.matches("0") || myItemType.matches("")){
                     item4Next.setChecked(false);
                     Toast.makeText(MainActivity.this, "Both the item description and quantity need to be set.", Toast.LENGTH_SHORT).show();
@@ -189,6 +207,10 @@ public class MainActivity extends AppCompatActivity {
             public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
                 String myItemQty = item5Qty.getSelectedItem().toString();
                 String myItemType = item5Type.getText().toString();
+                View focus = getCurrentFocus();
+                if (focus != null) {
+                    hiddenKeyboard(focus);
+                }
                 if(myItemQty.matches("0") || myItemType.matches("")){
                     item1Next.setChecked(false);
                     Toast.makeText(MainActivity.this, "Both the item description and quantity need to be set.", Toast.LENGTH_SHORT).show();
@@ -201,6 +223,10 @@ public class MainActivity extends AppCompatActivity {
             public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
                 String myItemQty = item6Qty.getSelectedItem().toString();
                 String myItemType = item6Type.getText().toString();
+                View focus = getCurrentFocus();
+                if (focus != null) {
+                    hiddenKeyboard(focus);
+                }
                 if(myItemQty.matches("0") || myItemType.matches("")){
                     item6Next.setChecked(false);
                     Toast.makeText(MainActivity.this, "Both the item description and quantity need to be set.", Toast.LENGTH_SHORT).show();
@@ -213,6 +239,10 @@ public class MainActivity extends AppCompatActivity {
             public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
                 String myItemQty = item7Qty.getSelectedItem().toString();
                 String myItemType = item7Type.getText().toString();
+                View focus = getCurrentFocus();
+                if (focus != null) {
+                    hiddenKeyboard(focus);
+                }
                 if(myItemQty.matches("0") || myItemType.matches("")){
                     item7Next.setChecked(false);
                     Toast.makeText(MainActivity.this, "Both the item description and quantity need to be set.", Toast.LENGTH_SHORT).show();
@@ -225,6 +255,10 @@ public class MainActivity extends AppCompatActivity {
             public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
                 String myItemQty = item8Qty.getSelectedItem().toString();
                 String myItemType = item8Type.getText().toString();
+                View focus = getCurrentFocus();
+                if (focus != null) {
+                    hiddenKeyboard(focus);
+                }
                 if(myItemQty.matches("0") || myItemType.matches("")){
                     item1Next.setChecked(false);
                     Toast.makeText(MainActivity.this, "Both the item description and quantity need to be set.", Toast.LENGTH_SHORT).show();
@@ -237,6 +271,10 @@ public class MainActivity extends AppCompatActivity {
             public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
                 String myItemQty = item9Qty.getSelectedItem().toString();
                 String myItemType = item9Type.getText().toString();
+                View focus = getCurrentFocus();
+                if (focus != null) {
+                    hiddenKeyboard(focus);
+                }
                 if(myItemQty.matches("0") || myItemType.matches("")){
                     item9Next.setChecked(false);
                     Toast.makeText(MainActivity.this, "Both the item description and quantity need to be set.", Toast.LENGTH_SHORT).show();
@@ -249,6 +287,10 @@ public class MainActivity extends AppCompatActivity {
             public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
                 String myItemQty = item10Qty.getSelectedItem().toString();
                 String myItemType = item10Type.getText().toString();
+                View focus = getCurrentFocus();
+                if (focus != null) {
+                    hiddenKeyboard(focus);
+                }
                 if(myItemQty.matches("0") || myItemType.matches("")){
                     item10Next.setChecked(false);
                     Toast.makeText(MainActivity.this, "Both the item description and quantity need to be set.", Toast.LENGTH_SHORT).show();
@@ -335,8 +377,15 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
+    private void hiddenKeyboard(View v) {
+        InputMethodManager keyboard = (InputMethodManager) getSystemService(Context.INPUT_METHOD_SERVICE);
+        if (keyboard != null) {
+            keyboard.hideSoftInputFromWindow(v.getWindowToken(), 0);
+        }
+    }
+
 //    @Override
-//    protected void onSaveInstanceState(Bundle outState) {
+//    public void onSaveInstanceState(Bundle outState) {
 //        super.onSaveInstanceState(outState);
 //        outState.putInt("KEY_ITEM1QTY", item1Qty.getSelectedItemPosition());
 //        outState.putInt("KEY_ITEM2QTY", item2Qty.getSelectedItemPosition());
@@ -359,6 +408,64 @@ public class MainActivity extends AppCompatActivity {
 //        outState.putString("KEY_ITEM8TYPE", item8Type.getText().toString());
 //        outState.putString("KEY_ITEM9TYPE", item9Type.getText().toString());
 //        outState.putString("KEY_ITEM10TYPE", item10Type.getText().toString());
+//
+//        outState.putBoolean("KEY_ITEM1NEXT", item1Next.isChecked());
+//        outState.putBoolean("KEY_ITEM2NEXT", item2Next.isChecked());
+//        outState.putBoolean("KEY_ITEM3NEXT", item3Next.isChecked());
+//        outState.putBoolean("KEY_ITEM4NEXT", item4Next.isChecked());
+//        outState.putBoolean("KEY_ITEM5NEXT", item5Next.isChecked());
+//        outState.putBoolean("KEY_ITEM6NEXT", item6Next.isChecked());
+//        outState.putBoolean("KEY_ITEM7NEXT", item7Next.isChecked());
+//        outState.putBoolean("KEY_ITEM8NEXT", item8Next.isChecked());
+//        outState.putBoolean("KEY_ITEM9NEXT", item9Next.isChecked());
+//        outState.putBoolean("KEY_ITEM10NEXT", item10Next.isChecked());
+//    }
+
+//    @Override
+//    public void onRestoreInstanceState(Bundle savedInstanceState) {
+//        super.onRestoreInstanceState(savedInstanceState);
+//        item1Next.setChecked(savedInstanceState.getBoolean("KEY_ITEM1NEXT",false));
+//        item1Next.setChecked(savedInstanceState.getBoolean("KEY_ITEM2NEXT",false));
+//        item1Next.setChecked(savedInstanceState.getBoolean("KEY_ITEM3NEXT",false));
+//        item1Next.setChecked(savedInstanceState.getBoolean("KEY_ITEM4NEXT",false));
+//        item1Next.setChecked(savedInstanceState.getBoolean("KEY_ITEM5NEXT",false));
+//        item1Next.setChecked(savedInstanceState.getBoolean("KEY_ITEM6NEXT",false));
+//        item1Next.setChecked(savedInstanceState.getBoolean("KEY_ITEM7NEXT",false));
+//        item1Next.setChecked(savedInstanceState.getBoolean("KEY_ITEM8NEXT",false));
+//        item1Next.setChecked(savedInstanceState.getBoolean("KEY_ITEM9NEXT",false));
+//        item1Next.setChecked(savedInstanceState.getBoolean("KEY_ITEM10NEXT",false));
+//
+//        item1Qty.setSelection(savedInstanceState.getInt("KEY_ITEM1QTY", 0));
+//        item2Qty.setSelection(savedInstanceState.getInt("KEY_ITEM2QTY", 0));
+//        item3Qty.setSelection(savedInstanceState.getInt("KEY_ITEM3QTY", 0));
+//        item4Qty.setSelection(savedInstanceState.getInt("KEY_ITEM4QTY", 0));
+//        item5Qty.setSelection(savedInstanceState.getInt("KEY_ITEM5QTY", 0));
+//        item6Qty.setSelection(savedInstanceState.getInt("KEY_ITEM6QTY", 0));
+//        item7Qty.setSelection(savedInstanceState.getInt("KEY_ITEM7QTY", 0));
+//        item8Qty.setSelection(savedInstanceState.getInt("KEY_ITEM8QTY", 0));
+//        item9Qty.setSelection(savedInstanceState.getInt("KEY_ITEM9QTY", 0));
+//        item10Qty.setSelection(savedInstanceState.getInt("KEY_ITEM10QTY", 0));
+//
+//        String holdItem1 = savedInstanceState.getString("KEY_ITEM1TYPE");
+//        item1Type.setText(holdItem1);
+//        String holdItem2 = savedInstanceState.getString("KEY_ITEM2TYPE");
+//        item2Type.setText(holdItem2);
+//        String holdItem3 = savedInstanceState.getString("KEY_ITEM3TYPE");
+//        item3Type.setText(holdItem3);
+//        String holdItem4 = savedInstanceState.getString("KEY_ITEM4TYPE");
+//        item4Type.setText(holdItem4);
+//        String holdItem5 = savedInstanceState.getString("KEY_ITEM5TYPE");
+//        item5Type.setText(holdItem5);
+//        String holdItem6 = savedInstanceState.getString("KEY_ITEM6TYPE");
+//        item6Type.setText(holdItem6);
+//        String holdItem7 = savedInstanceState.getString("KEY_ITEM7TYPE");
+//        item7Type.setText(holdItem7);
+//        String holdItem8 = savedInstanceState.getString("KEY_ITEM8TYPE");
+//        item8Type.setText(holdItem8);
+//        String holdItem9 = savedInstanceState.getString("KEY_ITEM9TYPE");
+//        item9Type.setText(holdItem9);
+//        String holdItem10 = savedInstanceState.getString("KEY_ITEM10TYPE");
+//        item10Type.setText(holdItem10);
 //    }
 }
 
