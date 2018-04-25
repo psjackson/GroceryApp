@@ -33,4 +33,6 @@
     <string name="hint1_page1">e.g. dozen eggs</string>
     <string name="hint2_page1">e.g. pint of milk</string>
     <string name="hint3_page1">etc</string>
+    <string name="togEach">Each</string>
+    <string name="togTotal">Total</string>
 </resources>

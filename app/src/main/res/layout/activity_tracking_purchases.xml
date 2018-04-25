@@ -67,7 +67,7 @@
         android:layout_width="32dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="22dp"
+        android:layout_marginTop="20dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txtPage2Item1Qty" />
 
@@ -112,7 +112,7 @@
         android:layout_width="32dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="21dp"
+        android:layout_marginTop="20dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txtPage2Item6Qty" />
 
@@ -121,7 +121,7 @@
         android:layout_width="32dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="21dp"
+        android:layout_marginTop="20dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txtPage2Item7Qty" />
 
@@ -130,7 +130,7 @@
         android:layout_width="32dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="21dp"
+        android:layout_marginTop="20dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txtPage2Item8Qty" />
 
@@ -139,7 +139,7 @@
         android:layout_width="32dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="21dp"
+        android:layout_marginTop="20dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txtPage2Item9Qty" />
 
@@ -197,7 +197,8 @@
         android:layout_height="0dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="21dp"
+        android:layout_marginTop="15dp"
+        android:textSize="18sp"
         app:layout_constraintEnd_toStartOf="@+id/txtPage2Item5Cost"
         app:layout_constraintStart_toEndOf="@+id/txtPage2Item5Qty"
         app:layout_constraintTop_toBottomOf="@+id/txtPage2Item4Type" />
@@ -208,7 +209,8 @@
         android:layout_height="0dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="21dp"
+        android:layout_marginTop="15dp"
+        android:textSize="18sp"
         app:layout_constraintEnd_toStartOf="@+id/txtPage2Item6Cost"
         app:layout_constraintStart_toEndOf="@+id/txtPage2Item6Qty"
         app:layout_constraintTop_toBottomOf="@+id/txtPage2Item5Type" />
@@ -219,7 +221,8 @@
         android:layout_height="0dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="21dp"
+        android:layout_marginTop="15dp"
+        android:textSize="18sp"
         app:layout_constraintEnd_toStartOf="@+id/txtPage2Item7Cost"
         app:layout_constraintStart_toEndOf="@+id/txtPage2Item7Qty"
         app:layout_constraintTop_toBottomOf="@+id/txtPage2Item6Type" />
@@ -230,7 +233,8 @@
         android:layout_height="0dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="21dp"
+        android:layout_marginTop="15dp"
+        android:textSize="18sp"
         app:layout_constraintEnd_toStartOf="@+id/txtPage2Item8Cost"
         app:layout_constraintStart_toEndOf="@+id/txtPage2Item8Qty"
         app:layout_constraintTop_toBottomOf="@+id/txtPage2Item7Type" />
@@ -241,7 +245,8 @@
         android:layout_height="0dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="21dp"
+        android:layout_marginTop="15dp"
+        android:textSize="18sp"
         app:layout_constraintEnd_toStartOf="@+id/txtPage2Item9Cost"
         app:layout_constraintStart_toEndOf="@+id/txtPage2Item9Qty"
         app:layout_constraintTop_toBottomOf="@+id/txtPage2Item8Type" />
@@ -252,7 +257,8 @@
         android:layout_height="0dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="21dp"
+        android:layout_marginTop="15dp"
+        android:textSize="18sp"
         app:layout_constraintEnd_toStartOf="@+id/txtPage2Item10Cost"
         app:layout_constraintStart_toEndOf="@+id/txtPage2Item10Qty"
         app:layout_constraintTop_toBottomOf="@+id/txtPage2Item9Type" />
@@ -261,13 +267,11 @@
         android:id="@+id/txtPage2Item1Cost"
         android:layout_width="80dp"
         android:layout_height="0dp"
-        android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:ems="10"
         android:inputType="numberDecimal"
         android:labelFor="@id/txtPage2Item1Cost"
         android:textSize="14sp"
-        app:layout_constraintEnd_toStartOf="@+id/swtItem1Cost"
         app:layout_constraintHorizontal_chainStyle="spread_inside"
         app:layout_constraintStart_toEndOf="@+id/txtPage2Item1Type"
         app:layout_constraintTop_toBottomOf="@+id/txtPage2Description2" />
@@ -276,13 +280,11 @@
         android:id="@+id/txtPage2Item2Cost"
         android:layout_width="80dp"
         android:layout_height="0dp"
-        android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:ems="10"
         android:inputType="numberDecimal"
         android:labelFor="@id/txtPage2Item2Cost"
         android:textSize="14sp"
-        app:layout_constraintEnd_toStartOf="@+id/swtItem2Cost"
         app:layout_constraintHorizontal_chainStyle="spread_inside"
         app:layout_constraintStart_toEndOf="@+id/txtPage2Item2Type"
         app:layout_constraintTop_toBottomOf="@+id/txtPage2Item1Cost" />
@@ -291,13 +293,11 @@
         android:id="@+id/txtPage2Item3Cost"
         android:layout_width="80dp"
         android:layout_height="0dp"
-        android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:ems="10"
         android:inputType="numberDecimal"
         android:labelFor="@id/txtPage2Item3Cost"
         android:textSize="14sp"
-        app:layout_constraintEnd_toStartOf="@+id/swtItem3Cost"
         app:layout_constraintHorizontal_chainStyle="spread_inside"
         app:layout_constraintStart_toEndOf="@+id/txtPage2Item3Type"
         app:layout_constraintTop_toBottomOf="@+id/txtPage2Item2Cost" />
@@ -306,13 +306,11 @@
         android:id="@+id/txtPage2Item4Cost"
         android:layout_width="80dp"
         android:layout_height="0dp"
-        android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:ems="10"
         android:inputType="numberDecimal"
         android:labelFor="@id/txtPage2Item4Cost"
         android:textSize="14sp"
-        app:layout_constraintEnd_toStartOf="@+id/swtItem4Cost"
         app:layout_constraintStart_toEndOf="@+id/txtPage2Item4Type"
         app:layout_constraintTop_toBottomOf="@+id/txtPage2Item3Cost" />
 
@@ -320,13 +318,11 @@
         android:id="@+id/txtPage2Item5Cost"
         android:layout_width="80dp"
         android:layout_height="0dp"
-        android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:ems="10"
         android:inputType="numberDecimal"
         android:labelFor="@id/txtPage2Item5Cost"
         android:textSize="14sp"
-        app:layout_constraintEnd_toStartOf="@+id/swtItem5Cost"
         app:layout_constraintStart_toEndOf="@+id/txtPage2Item5Type"
         app:layout_constraintTop_toBottomOf="@+id/txtPage2Item4Cost" />
 
@@ -334,13 +330,11 @@
         android:id="@+id/txtPage2Item6Cost"
         android:layout_width="80dp"
         android:layout_height="0dp"
-        android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:ems="10"
         android:inputType="numberDecimal"
         android:labelFor="@id/txtPage2Item6Cost"
         android:textSize="14sp"
-        app:layout_constraintEnd_toStartOf="@+id/swtItem6Cost"
         app:layout_constraintStart_toEndOf="@+id/txtPage2Item6Type"
         app:layout_constraintTop_toBottomOf="@+id/txtPage2Item5Cost" />
 
@@ -348,13 +342,11 @@
         android:id="@+id/txtPage2Item7Cost"
         android:layout_width="80dp"
         android:layout_height="0dp"
-        android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:ems="10"
         android:inputType="numberDecimal"
         android:labelFor="@id/txtPage2Item7Cost"
         android:textSize="14sp"
-        app:layout_constraintEnd_toStartOf="@+id/swtItem7Cost"
         app:layout_constraintStart_toEndOf="@+id/txtPage2Item7Type"
         app:layout_constraintTop_toBottomOf="@+id/txtPage2Item6Cost" />
 
@@ -362,13 +354,11 @@
         android:id="@+id/txtPage2Item8Cost"
         android:layout_width="80dp"
         android:layout_height="0dp"
-        android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:ems="10"
         android:inputType="numberDecimal"
         android:labelFor="@id/txtPage2Item8Cost"
         android:textSize="14sp"
-        app:layout_constraintEnd_toStartOf="@+id/swtItem8Cost"
         app:layout_constraintStart_toEndOf="@+id/txtPage2Item8Type"
         app:layout_constraintTop_toBottomOf="@+id/txtPage2Item7Cost" />
 
@@ -376,13 +366,11 @@
         android:id="@+id/txtPage2Item9Cost"
         android:layout_width="80dp"
         android:layout_height="0dp"
-        android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:ems="10"
         android:inputType="numberDecimal"
         android:labelFor="@id/txtPage2Item9Cost"
         android:textSize="14sp"
-        app:layout_constraintEnd_toStartOf="@+id/swtItem9Cost"
         app:layout_constraintStart_toEndOf="@+id/txtPage2Item9Type"
         app:layout_constraintTop_toBottomOf="@+id/txtPage2Item8Cost" />
 
@@ -390,115 +378,13 @@
         android:id="@+id/txtPage2Item10Cost"
         android:layout_width="80dp"
         android:layout_height="0dp"
-        android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:ems="10"
         android:inputType="numberDecimal"
         android:labelFor="@id/txtPage2Item10Cost"
         android:textSize="14sp"
-        app:layout_constraintEnd_toStartOf="@+id/swtItem10Cost"
         app:layout_constraintStart_toEndOf="@+id/txtPage2Item10Type"
         app:layout_constraintTop_toBottomOf="@+id/txtPage2Item9Cost" />
-
-    <Switch
-        android:id="@+id/swtItem1Cost"
-        android:layout_width="wrap_content"
-        android:layout_height="39dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginStart="8dp"
-        app:layout_constraintEnd_toStartOf="@+id/cBoxPage2Item1"
-        app:layout_constraintStart_toEndOf="@+id/txtPage2Item1Cost"
-        app:layout_constraintTop_toBottomOf="@+id/txtPage2Description2" />
-
-    <Switch
-        android:id="@+id/swtItem2Cost"
-        android:layout_width="wrap_content"
-        android:layout_height="39dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginStart="8dp"
-        app:layout_constraintEnd_toStartOf="@+id/cBoxPage2Item2"
-        app:layout_constraintStart_toEndOf="@+id/txtPage2Item2Cost"
-        app:layout_constraintTop_toBottomOf="@+id/swtItem1Cost" />
-
-    <Switch
-        android:id="@+id/swtItem3Cost"
-        android:layout_width="wrap_content"
-        android:layout_height="39dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginStart="8dp"
-        app:layout_constraintEnd_toStartOf="@+id/cBoxPage2Item3"
-        app:layout_constraintStart_toEndOf="@+id/txtPage2Item3Cost"
-        app:layout_constraintTop_toBottomOf="@+id/swtItem2Cost" />
-
-    <Switch
-        android:id="@+id/swtItem4Cost"
-        android:layout_width="wrap_content"
-        android:layout_height="39dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginStart="8dp"
-        app:layout_constraintEnd_toStartOf="@+id/cBoxPage2Item4"
-        app:layout_constraintStart_toEndOf="@+id/txtPage2Item4Cost"
-        app:layout_constraintTop_toBottomOf="@+id/swtItem3Cost" />
-
-    <Switch
-        android:id="@+id/swtItem5Cost"
-        android:layout_width="wrap_content"
-        android:layout_height="39dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginStart="8dp"
-        app:layout_constraintEnd_toStartOf="@+id/cBoxPage2Item5"
-        app:layout_constraintStart_toEndOf="@+id/txtPage2Item5Cost"
-        app:layout_constraintTop_toBottomOf="@+id/swtItem4Cost" />
-
-    <Switch
-        android:id="@+id/swtItem6Cost"
-        android:layout_width="wrap_content"
-        android:layout_height="39dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginStart="8dp"
-        app:layout_constraintEnd_toStartOf="@+id/cBoxPage2Item6"
-        app:layout_constraintStart_toEndOf="@+id/txtPage2Item6Cost"
-        app:layout_constraintTop_toBottomOf="@+id/swtItem5Cost" />
-
-    <Switch
-        android:id="@+id/swtItem7Cost"
-        android:layout_width="wrap_content"
-        android:layout_height="39dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginStart="8dp"
-        app:layout_constraintEnd_toStartOf="@+id/cBoxPage2Item7"
-        app:layout_constraintStart_toEndOf="@+id/txtPage2Item7Cost"
-        app:layout_constraintTop_toBottomOf="@+id/swtItem6Cost" />
-
-    <Switch
-        android:id="@+id/swtItem8Cost"
-        android:layout_width="wrap_content"
-        android:layout_height="39dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginStart="8dp"
-        app:layout_constraintEnd_toStartOf="@+id/cBoxPage2Item8"
-        app:layout_constraintStart_toEndOf="@+id/txtPage2Item8Cost"
-        app:layout_constraintTop_toBottomOf="@+id/swtItem7Cost" />
-
-    <Switch
-        android:id="@+id/swtItem9Cost"
-        android:layout_width="wrap_content"
-        android:layout_height="39dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginStart="8dp"
-        app:layout_constraintEnd_toStartOf="@+id/cBoxPage2Item9"
-        app:layout_constraintStart_toEndOf="@+id/txtPage2Item9Cost"
-        app:layout_constraintTop_toBottomOf="@+id/swtItem8Cost" />
-
-    <Switch
-        android:id="@+id/swtItem10Cost"
-        android:layout_width="wrap_content"
-        android:layout_height="39dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginStart="8dp"
-        app:layout_constraintEnd_toStartOf="@+id/cBoxPage2Item10"
-        app:layout_constraintStart_toEndOf="@+id/txtPage2Item10Cost"
-        app:layout_constraintTop_toBottomOf="@+id/swtItem9Cost" />
 
     <CheckBox
         android:id="@+id/cBoxPage2Item1"
@@ -580,15 +466,135 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/cBoxPage2Item9" />
 
-    <Button
-        android:id="@+id/btnPage2Back"
-        android:layout_width="wrap_content"
-        android:layout_height="36dp"
-        android:layout_marginBottom="16dp"
-        android:layout_marginStart="52dp"
-        android:text="@string/btnPageBack"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+    <ToggleButton
+        android:id="@+id/togPage2Item1"
+        android:layout_width="70dp"
+        android:layout_height="39dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:checked="true"
+        android:textOff="@string/togTotal"
+        android:textOn="@string/togEach"
+        app:layout_constraintEnd_toStartOf="@+id/cBoxPage2Item1"
+        app:layout_constraintStart_toEndOf="@+id/txtPage2Item1Cost"
+        app:layout_constraintTop_toBottomOf="@+id/txtPage2Description2" />
+
+    <ToggleButton
+        android:id="@+id/togPage2Item2"
+        android:layout_width="70dp"
+        android:layout_height="39dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:checked="true"
+        android:textOff="@string/togTotal"
+        android:textOn="@string/togEach"
+        app:layout_constraintEnd_toStartOf="@+id/cBoxPage2Item2"
+        app:layout_constraintStart_toEndOf="@+id/txtPage2Item2Cost"
+        app:layout_constraintTop_toBottomOf="@+id/togPage2Item1" />
+
+    <ToggleButton
+        android:id="@+id/togPage2Item3"
+        android:layout_width="70dp"
+        android:layout_height="39dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:checked="true"
+        android:textOff="@string/togTotal"
+        android:textOn="@string/togEach"
+        app:layout_constraintEnd_toStartOf="@+id/cBoxPage2Item3"
+        app:layout_constraintStart_toEndOf="@+id/txtPage2Item3Cost"
+        app:layout_constraintTop_toBottomOf="@+id/togPage2Item2" />
+
+    <ToggleButton
+        android:id="@+id/togPage2Item4"
+        android:layout_width="70dp"
+        android:layout_height="39dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:checked="true"
+        android:textOff="@string/togTotal"
+        android:textOn="@string/togEach"
+        app:layout_constraintEnd_toStartOf="@+id/cBoxPage2Item4"
+        app:layout_constraintStart_toEndOf="@+id/txtPage2Item4Cost"
+        app:layout_constraintTop_toBottomOf="@+id/togPage2Item3" />
+
+    <ToggleButton
+        android:id="@+id/togPage2Item5"
+        android:layout_width="70dp"
+        android:layout_height="39dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:checked="true"
+        android:textOff="@string/togTotal"
+        android:textOn="@string/togEach"
+        app:layout_constraintEnd_toStartOf="@+id/cBoxPage2Item5"
+        app:layout_constraintStart_toEndOf="@+id/txtPage2Item5Cost"
+        app:layout_constraintTop_toBottomOf="@+id/togPage2Item4" />
+
+    <ToggleButton
+        android:id="@+id/togPage2Item6"
+        android:layout_width="70dp"
+        android:layout_height="39dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:checked="true"
+        android:textOff="@string/togTotal"
+        android:textOn="@string/togEach"
+        app:layout_constraintEnd_toStartOf="@+id/cBoxPage2Item7"
+        app:layout_constraintStart_toEndOf="@+id/txtPage2Item7Cost"
+        app:layout_constraintTop_toBottomOf="@+id/togPage2Item7" />
+
+    <ToggleButton
+        android:id="@+id/togPage2Item7"
+        android:layout_width="70dp"
+        android:layout_height="39dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:checked="true"
+        android:textOff="@string/togTotal"
+        android:textOn="@string/togEach"
+        app:layout_constraintEnd_toStartOf="@+id/cBoxPage2Item6"
+        app:layout_constraintStart_toEndOf="@+id/txtPage2Item6Cost"
+        app:layout_constraintTop_toBottomOf="@+id/togPage2Item5" />
+
+    <ToggleButton
+        android:id="@+id/togPage2Item8"
+        android:layout_width="70dp"
+        android:layout_height="39dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:checked="true"
+        android:textOff="@string/togTotal"
+        android:textOn="@string/togEach"
+        app:layout_constraintEnd_toStartOf="@+id/cBoxPage2Item10"
+        app:layout_constraintStart_toEndOf="@+id/txtPage2Item10Cost"
+        app:layout_constraintTop_toBottomOf="@+id/togPage2Item10" />
+
+    <ToggleButton
+        android:id="@+id/togPage2Item9"
+        android:layout_width="70dp"
+        android:layout_height="39dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:checked="true"
+        android:textOff="@string/togTotal"
+        android:textOn="@string/togEach"
+        app:layout_constraintEnd_toStartOf="@+id/cBoxPage2Item8"
+        app:layout_constraintStart_toEndOf="@+id/txtPage2Item8Cost"
+        app:layout_constraintTop_toBottomOf="@+id/togPage2Item6" />
+
+    <ToggleButton
+        android:id="@+id/togPage2Item10"
+        android:layout_width="70dp"
+        android:layout_height="39dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:checked="true"
+        android:textOff="@string/togTotal"
+        android:textOn="@string/togEach"
+        app:layout_constraintEnd_toStartOf="@+id/cBoxPage2Item9"
+        app:layout_constraintStart_toEndOf="@+id/txtPage2Item9Cost"
+        app:layout_constraintTop_toBottomOf="@+id/togPage2Item9" />
 
     <Button
         android:id="@+id/btnPage2Done"
@@ -600,19 +606,14 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
-    <ToggleButton
-        android:id="@+id/toggleButton2"
-        android:layout_width="70dp"
-        android:layout_height="39dp"
-        android:layout_marginBottom="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginStart="8dp"
-        android:text="ToggleButton"
-        android:textOff="Total"
-        android:textOn="Each"
-        android:textSize="12sp"
+    <Button
+        android:id="@+id/btnPage2Back"
+        android:layout_width="wrap_content"
+        android:layout_height="36dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginStart="52dp"
+        android:text="@string/btnPageBack"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/btnPage2Done"
-        app:layout_constraintStart_toEndOf="@+id/btnPage2Back" />
+        app:layout_constraintStart_toStartOf="parent" />
 
 </android.support.constraint.ConstraintLayout>
