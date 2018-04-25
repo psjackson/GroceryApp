@@ -18,9 +18,9 @@ public class MainActivity extends AppCompatActivity {
     ArrayList<String> itemsList = new ArrayList<>();
     ArrayList<String> qtysList = new ArrayList<>();
 
-//    EditText item1Type, item2Type, item3Type, item4Type, item5Type, item6Type, item7Type, item8Type, item9Type, item10Type;
-//    Spinner item1Qty, item2Qty, item3Qty, item4Qty, item5Qty, item6Qty, item7Qty, item8Qty, item9Qty, item10Qty;
-//    Switch item1Next, item2Next, item3Next, item4Next, item5Next, item6Next, item7Next, item8Next, item9Next, item10Next;
+    EditText item1Type, item2Type, item3Type, item4Type, item5Type, item6Type, item7Type, item8Type, item9Type, item10Type;
+    Spinner item1Qty, item2Qty, item3Qty, item4Qty, item5Qty, item6Qty, item7Qty, item8Qty, item9Qty, item10Qty;
+    Switch item1Next, item2Next, item3Next, item4Next, item5Next, item6Next, item7Next, item8Next, item9Next, item10Next;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -30,38 +30,38 @@ public class MainActivity extends AppCompatActivity {
         getSupportActionBar().setLogo(R.mipmap.ic_launcher);
         getSupportActionBar().setDisplayUseLogoEnabled(true);
 
-        final EditText item1Type = findViewById(R.id.txtItemDesc1);
-        final EditText item2Type = findViewById(R.id.txtItemDesc2);
-        final EditText item3Type = findViewById(R.id.txtItemDesc3);
-        final EditText item4Type = findViewById(R.id.txtItemDesc4);
-        final EditText item5Type = findViewById(R.id.txtItemDesc5);
-        final EditText item6Type = findViewById(R.id.txtItemDesc6);
-        final EditText item7Type = findViewById(R.id.txtItemDesc7);
-        final EditText item8Type = findViewById(R.id.txtItemDesc8);
-        final EditText item9Type = findViewById(R.id.txtItemDesc9);
-        final EditText item10Type = findViewById(R.id.txtItemDesc10);
+        item1Type = findViewById(R.id.txtPage1Item1Type);
+        item2Type = findViewById(R.id.txtPage1Item2Type);
+        item3Type = findViewById(R.id.txtPage1Item3Type);
+        item4Type = findViewById(R.id.txtPage1Item4Type);
+        item5Type = findViewById(R.id.txtPage1Item5Type);
+        item6Type = findViewById(R.id.txtPage1Item6Type);
+        item7Type = findViewById(R.id.txtPage1Item7Type);
+        item8Type = findViewById(R.id.txtPage1Item8Type);
+        item9Type = findViewById(R.id.txtPage1Item9Type);
+        item10Type = findViewById(R.id.txtPage1Item10Type);
 
-        final Spinner item1Qty = findViewById(R.id.spnQtyItem1);
-        final Spinner item2Qty = findViewById(R.id.spnQtyItem2);
-        final Spinner item3Qty = findViewById(R.id.spnQtyItem3);
-        final Spinner item4Qty = findViewById(R.id.spnQtyItem4);
-        final Spinner item5Qty = findViewById(R.id.spnQtyItem5);
-        final Spinner item6Qty = findViewById(R.id.spnQtyItem6);
-        final Spinner item7Qty = findViewById(R.id.spnQtyItem7);
-        final Spinner item8Qty = findViewById(R.id.spnQtyItem8);
-        final Spinner item9Qty = findViewById(R.id.spnQtyItem9);
-        final Spinner item10Qty = findViewById(R.id.spnQtyItem10);
+        item1Qty = findViewById(R.id.spnPage1Item1Qty);
+        item2Qty = findViewById(R.id.spnPage1Item2Qty);
+        item3Qty = findViewById(R.id.spnPage1Item3Qty);
+        item4Qty = findViewById(R.id.spnPage1Item4Qty);
+        item5Qty = findViewById(R.id.spnPage1Item5Qty);
+        item6Qty = findViewById(R.id.spnPage1Item6Qty);
+        item7Qty = findViewById(R.id.spnPage1Item7Qty);
+        item8Qty = findViewById(R.id.spnPage1Item8Qty);
+        item9Qty = findViewById(R.id.spnPage1Item9Qty);
+        item10Qty = findViewById(R.id.spnPage1Item10Qty);
 
-        final Switch item1Next = findViewById(R.id.swtItem1);
-        final Switch item2Next = findViewById(R.id.swtItem2);
-        final Switch item3Next = findViewById(R.id.swtItem3);
-        final Switch item4Next = findViewById(R.id.swtItem4);
-        final Switch item5Next = findViewById(R.id.swtItem5);
-        final Switch item6Next = findViewById(R.id.swtItem6);
-        final Switch item7Next = findViewById(R.id.swtItem7);
-        final Switch item8Next = findViewById(R.id.swtItem8);
-        final Switch item9Next = findViewById(R.id.swtItem9);
-        final Switch item10Next = findViewById(R.id.swtItem10);
+        item1Next = findViewById(R.id.swtPage1Item1Send);
+        item2Next = findViewById(R.id.swtPage1Item2Send);
+        item3Next = findViewById(R.id.swtPage1Item3Send);
+        item4Next = findViewById(R.id.swtPage1Item4Send);
+        item5Next = findViewById(R.id.swtPage1Item5Send);
+        item6Next = findViewById(R.id.swtPage1Item6Send);
+        item7Next = findViewById(R.id.swtPage1Item7Send);
+        item8Next = findViewById(R.id.swtPage1Item8Send);
+        item9Next = findViewById(R.id.swtPage1Item9Send);
+        item10Next = findViewById(R.id.swtPage1Item10Send);
 
         Button resetPage1 = findViewById(R.id.btnPage1Clear);
         Button nextPage1 = findViewById(R.id.btnPage1Done);
@@ -384,89 +384,89 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
-//    @Override
-//    public void onSaveInstanceState(Bundle outState) {
-//        super.onSaveInstanceState(outState);
-//        outState.putInt("KEY_ITEM1QTY", item1Qty.getSelectedItemPosition());
-//        outState.putInt("KEY_ITEM2QTY", item2Qty.getSelectedItemPosition());
-//        outState.putInt("KEY_ITEM3QTY", item3Qty.getSelectedItemPosition());
-//        outState.putInt("KEY_ITEM4QTY", item4Qty.getSelectedItemPosition());
-//        outState.putInt("KEY_ITEM5QTY", item5Qty.getSelectedItemPosition());
-//        outState.putInt("KEY_ITEM6QTY", item6Qty.getSelectedItemPosition());
-//        outState.putInt("KEY_ITEM7QTY", item7Qty.getSelectedItemPosition());
-//        outState.putInt("KEY_ITEM8QTY", item8Qty.getSelectedItemPosition());
-//        outState.putInt("KEY_ITEM9QTY", item9Qty.getSelectedItemPosition());
-//        outState.putInt("KEY_ITEM10QTY", item10Qty.getSelectedItemPosition());
-//
-//        outState.putString("KEY_ITEM1TYPE", item1Type.getText().toString());
-//        outState.putString("KEY_ITEM2TYPE", item2Type.getText().toString());
-//        outState.putString("KEY_ITEM3TYPE", item3Type.getText().toString());
-//        outState.putString("KEY_ITEM4TYPE", item4Type.getText().toString());
-//        outState.putString("KEY_ITEM5TYPE", item5Type.getText().toString());
-//        outState.putString("KEY_ITEM6TYPE", item6Type.getText().toString());
-//        outState.putString("KEY_ITEM7TYPE", item7Type.getText().toString());
-//        outState.putString("KEY_ITEM8TYPE", item8Type.getText().toString());
-//        outState.putString("KEY_ITEM9TYPE", item9Type.getText().toString());
-//        outState.putString("KEY_ITEM10TYPE", item10Type.getText().toString());
-//
-//        outState.putBoolean("KEY_ITEM1NEXT", item1Next.isChecked());
-//        outState.putBoolean("KEY_ITEM2NEXT", item2Next.isChecked());
-//        outState.putBoolean("KEY_ITEM3NEXT", item3Next.isChecked());
-//        outState.putBoolean("KEY_ITEM4NEXT", item4Next.isChecked());
-//        outState.putBoolean("KEY_ITEM5NEXT", item5Next.isChecked());
-//        outState.putBoolean("KEY_ITEM6NEXT", item6Next.isChecked());
-//        outState.putBoolean("KEY_ITEM7NEXT", item7Next.isChecked());
-//        outState.putBoolean("KEY_ITEM8NEXT", item8Next.isChecked());
-//        outState.putBoolean("KEY_ITEM9NEXT", item9Next.isChecked());
-//        outState.putBoolean("KEY_ITEM10NEXT", item10Next.isChecked());
-//    }
+    @Override
+    public void onSaveInstanceState(Bundle outState) {
+        super.onSaveInstanceState(outState);
+        outState.putInt("KEY_ITEM1QTY", item1Qty.getSelectedItemPosition());
+        outState.putInt("KEY_ITEM2QTY", item2Qty.getSelectedItemPosition());
+        outState.putInt("KEY_ITEM3QTY", item3Qty.getSelectedItemPosition());
+        outState.putInt("KEY_ITEM4QTY", item4Qty.getSelectedItemPosition());
+        outState.putInt("KEY_ITEM5QTY", item5Qty.getSelectedItemPosition());
+        outState.putInt("KEY_ITEM6QTY", item6Qty.getSelectedItemPosition());
+        outState.putInt("KEY_ITEM7QTY", item7Qty.getSelectedItemPosition());
+        outState.putInt("KEY_ITEM8QTY", item8Qty.getSelectedItemPosition());
+        outState.putInt("KEY_ITEM9QTY", item9Qty.getSelectedItemPosition());
+        outState.putInt("KEY_ITEM10QTY", item10Qty.getSelectedItemPosition());
 
-//    @Override
-//    public void onRestoreInstanceState(Bundle savedInstanceState) {
-//        super.onRestoreInstanceState(savedInstanceState);
-//        item1Next.setChecked(savedInstanceState.getBoolean("KEY_ITEM1NEXT",false));
-//        item1Next.setChecked(savedInstanceState.getBoolean("KEY_ITEM2NEXT",false));
-//        item1Next.setChecked(savedInstanceState.getBoolean("KEY_ITEM3NEXT",false));
-//        item1Next.setChecked(savedInstanceState.getBoolean("KEY_ITEM4NEXT",false));
-//        item1Next.setChecked(savedInstanceState.getBoolean("KEY_ITEM5NEXT",false));
-//        item1Next.setChecked(savedInstanceState.getBoolean("KEY_ITEM6NEXT",false));
-//        item1Next.setChecked(savedInstanceState.getBoolean("KEY_ITEM7NEXT",false));
-//        item1Next.setChecked(savedInstanceState.getBoolean("KEY_ITEM8NEXT",false));
-//        item1Next.setChecked(savedInstanceState.getBoolean("KEY_ITEM9NEXT",false));
-//        item1Next.setChecked(savedInstanceState.getBoolean("KEY_ITEM10NEXT",false));
-//
-//        item1Qty.setSelection(savedInstanceState.getInt("KEY_ITEM1QTY", 0));
-//        item2Qty.setSelection(savedInstanceState.getInt("KEY_ITEM2QTY", 0));
-//        item3Qty.setSelection(savedInstanceState.getInt("KEY_ITEM3QTY", 0));
-//        item4Qty.setSelection(savedInstanceState.getInt("KEY_ITEM4QTY", 0));
-//        item5Qty.setSelection(savedInstanceState.getInt("KEY_ITEM5QTY", 0));
-//        item6Qty.setSelection(savedInstanceState.getInt("KEY_ITEM6QTY", 0));
-//        item7Qty.setSelection(savedInstanceState.getInt("KEY_ITEM7QTY", 0));
-//        item8Qty.setSelection(savedInstanceState.getInt("KEY_ITEM8QTY", 0));
-//        item9Qty.setSelection(savedInstanceState.getInt("KEY_ITEM9QTY", 0));
-//        item10Qty.setSelection(savedInstanceState.getInt("KEY_ITEM10QTY", 0));
-//
-//        String holdItem1 = savedInstanceState.getString("KEY_ITEM1TYPE");
-//        item1Type.setText(holdItem1);
-//        String holdItem2 = savedInstanceState.getString("KEY_ITEM2TYPE");
-//        item2Type.setText(holdItem2);
-//        String holdItem3 = savedInstanceState.getString("KEY_ITEM3TYPE");
-//        item3Type.setText(holdItem3);
-//        String holdItem4 = savedInstanceState.getString("KEY_ITEM4TYPE");
-//        item4Type.setText(holdItem4);
-//        String holdItem5 = savedInstanceState.getString("KEY_ITEM5TYPE");
-//        item5Type.setText(holdItem5);
-//        String holdItem6 = savedInstanceState.getString("KEY_ITEM6TYPE");
-//        item6Type.setText(holdItem6);
-//        String holdItem7 = savedInstanceState.getString("KEY_ITEM7TYPE");
-//        item7Type.setText(holdItem7);
-//        String holdItem8 = savedInstanceState.getString("KEY_ITEM8TYPE");
-//        item8Type.setText(holdItem8);
-//        String holdItem9 = savedInstanceState.getString("KEY_ITEM9TYPE");
-//        item9Type.setText(holdItem9);
-//        String holdItem10 = savedInstanceState.getString("KEY_ITEM10TYPE");
-//        item10Type.setText(holdItem10);
-//    }
+        outState.putString("KEY_ITEM1TYPE", item1Type.getText().toString());
+        outState.putString("KEY_ITEM2TYPE", item2Type.getText().toString());
+        outState.putString("KEY_ITEM3TYPE", item3Type.getText().toString());
+        outState.putString("KEY_ITEM4TYPE", item4Type.getText().toString());
+        outState.putString("KEY_ITEM5TYPE", item5Type.getText().toString());
+        outState.putString("KEY_ITEM6TYPE", item6Type.getText().toString());
+        outState.putString("KEY_ITEM7TYPE", item7Type.getText().toString());
+        outState.putString("KEY_ITEM8TYPE", item8Type.getText().toString());
+        outState.putString("KEY_ITEM9TYPE", item9Type.getText().toString());
+        outState.putString("KEY_ITEM10TYPE", item10Type.getText().toString());
+
+        outState.putBoolean("KEY_ITEM1NEXT", item1Next.isChecked());
+        outState.putBoolean("KEY_ITEM2NEXT", item2Next.isChecked());
+        outState.putBoolean("KEY_ITEM3NEXT", item3Next.isChecked());
+        outState.putBoolean("KEY_ITEM4NEXT", item4Next.isChecked());
+        outState.putBoolean("KEY_ITEM5NEXT", item5Next.isChecked());
+        outState.putBoolean("KEY_ITEM6NEXT", item6Next.isChecked());
+        outState.putBoolean("KEY_ITEM7NEXT", item7Next.isChecked());
+        outState.putBoolean("KEY_ITEM8NEXT", item8Next.isChecked());
+        outState.putBoolean("KEY_ITEM9NEXT", item9Next.isChecked());
+        outState.putBoolean("KEY_ITEM10NEXT", item10Next.isChecked());
+    }
+
+    @Override
+    public void onRestoreInstanceState(Bundle savedInstanceState) {
+        super.onRestoreInstanceState(savedInstanceState);
+        item1Next.setChecked(savedInstanceState.getBoolean("KEY_ITEM1NEXT",false));
+        item2Next.setChecked(savedInstanceState.getBoolean("KEY_ITEM2NEXT",false));
+        item3Next.setChecked(savedInstanceState.getBoolean("KEY_ITEM3NEXT",false));
+        item4Next.setChecked(savedInstanceState.getBoolean("KEY_ITEM4NEXT",false));
+        item5Next.setChecked(savedInstanceState.getBoolean("KEY_ITEM5NEXT",false));
+        item6Next.setChecked(savedInstanceState.getBoolean("KEY_ITEM6NEXT",false));
+        item7Next.setChecked(savedInstanceState.getBoolean("KEY_ITEM7NEXT",false));
+        item8Next.setChecked(savedInstanceState.getBoolean("KEY_ITEM8NEXT",false));
+        item9Next.setChecked(savedInstanceState.getBoolean("KEY_ITEM9NEXT",false));
+        item10Next.setChecked(savedInstanceState.getBoolean("KEY_ITEM10NEXT",false));
+
+        item1Qty.setSelection(savedInstanceState.getInt("KEY_ITEM1QTY", 0));
+        item2Qty.setSelection(savedInstanceState.getInt("KEY_ITEM2QTY", 0));
+        item3Qty.setSelection(savedInstanceState.getInt("KEY_ITEM3QTY", 0));
+        item4Qty.setSelection(savedInstanceState.getInt("KEY_ITEM4QTY", 0));
+        item5Qty.setSelection(savedInstanceState.getInt("KEY_ITEM5QTY", 0));
+        item6Qty.setSelection(savedInstanceState.getInt("KEY_ITEM6QTY", 0));
+        item7Qty.setSelection(savedInstanceState.getInt("KEY_ITEM7QTY", 0));
+        item8Qty.setSelection(savedInstanceState.getInt("KEY_ITEM8QTY", 0));
+        item9Qty.setSelection(savedInstanceState.getInt("KEY_ITEM9QTY", 0));
+        item10Qty.setSelection(savedInstanceState.getInt("KEY_ITEM10QTY", 0));
+
+        String holdItem1 = savedInstanceState.getString("KEY_ITEM1TYPE");
+        item1Type.setText(holdItem1);
+        String holdItem2 = savedInstanceState.getString("KEY_ITEM2TYPE");
+        item2Type.setText(holdItem2);
+        String holdItem3 = savedInstanceState.getString("KEY_ITEM3TYPE");
+        item3Type.setText(holdItem3);
+        String holdItem4 = savedInstanceState.getString("KEY_ITEM4TYPE");
+        item4Type.setText(holdItem4);
+        String holdItem5 = savedInstanceState.getString("KEY_ITEM5TYPE");
+        item5Type.setText(holdItem5);
+        String holdItem6 = savedInstanceState.getString("KEY_ITEM6TYPE");
+        item6Type.setText(holdItem6);
+        String holdItem7 = savedInstanceState.getString("KEY_ITEM7TYPE");
+        item7Type.setText(holdItem7);
+        String holdItem8 = savedInstanceState.getString("KEY_ITEM8TYPE");
+        item8Type.setText(holdItem8);
+        String holdItem9 = savedInstanceState.getString("KEY_ITEM9TYPE");
+        item9Type.setText(holdItem9);
+        String holdItem10 = savedInstanceState.getString("KEY_ITEM10TYPE");
+        item10Type.setText(holdItem10);
+    }
 }
 
 

@@ -7,7 +7,7 @@
     tools:context="com.example.pjackson.groceryapp.TrackingPurchases">
 
     <TextView
-        android:id="@+id/txtAppHeading2"
+        android:id="@+id/txtPage2Heading"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="8dp"
@@ -23,22 +23,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/txtPageOneDesc2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="16dp"
-        android:layout_marginStart="16dp"
-        android:text="@string/app_page2_desc2"
-        android:textAlignment="center"
-        android:textColor="@color/colorPrimary"
-        android:textSize="14sp"
-        android:textStyle="italic"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txtPageOneDesc3" />
-
-    <TextView
-        android:id="@+id/txtPageOneDesc3"
+        android:id="@+id/txtPage2Description1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="16dp"
@@ -51,344 +36,369 @@
         android:textStyle="italic"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txtAppHeading2" />
+        app:layout_constraintTop_toBottomOf="@+id/txtPage2Heading" />
 
     <TextView
-        android:id="@+id/txtItem1Qty2"
+        android:id="@+id/txtPage2Description2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:text="@string/app_page2_desc2"
+        android:textAlignment="center"
+        android:textColor="@color/colorPrimary"
+        android:textSize="14sp"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtPage2Description1" />
+
+    <TextView
+        android:id="@+id/txtPage2Item1Qty"
         android:layout_width="32dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginTop="9dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txtPageOneDesc2" />
+        app:layout_constraintTop_toBottomOf="@+id/txtPage2Description2" />
 
     <TextView
-        android:id="@+id/txtItem2Qty2"
+        android:id="@+id/txtPage2Item2Qty"
         android:layout_width="32dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginTop="22dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txtItem1Qty2" />
+        app:layout_constraintTop_toBottomOf="@+id/txtPage2Item1Qty" />
 
     <TextView
-        android:id="@+id/txtItem3Qty2"
+        android:id="@+id/txtPage2Item3Qty"
         android:layout_width="32dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginTop="22dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txtItem2Qty2" />
+        app:layout_constraintTop_toBottomOf="@+id/txtPage2Item2Qty" />
 
     <TextView
-        android:id="@+id/txtItem4Qty2"
+        android:id="@+id/txtPage2Item4Qty"
         android:layout_width="32dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginTop="21dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txtItem3Qty2" />
+        app:layout_constraintTop_toBottomOf="@+id/txtPage2Item3Qty" />
 
     <TextView
-        android:id="@+id/txtItem5Qty2"
+        android:id="@+id/txtPage2Item5Qty"
         android:layout_width="32dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginTop="21dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txtItem4Qty2" />
+        app:layout_constraintTop_toBottomOf="@+id/txtPage2Item4Qty" />
 
     <TextView
-        android:id="@+id/txtItem6Qty2"
+        android:id="@+id/txtPage2Item6Qty"
         android:layout_width="32dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginTop="22dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txtItem5Qty2" />
+        app:layout_constraintTop_toBottomOf="@+id/txtPage2Item5Qty" />
 
     <TextView
-        android:id="@+id/txtItem7Qty2"
+        android:id="@+id/txtPage2Item7Qty"
         android:layout_width="32dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginTop="21dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txtItem6Qty2" />
+        app:layout_constraintTop_toBottomOf="@+id/txtPage2Item6Qty" />
 
     <TextView
-        android:id="@+id/txtItem8Qty2"
+        android:id="@+id/txtPage2Item8Qty"
         android:layout_width="32dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginTop="21dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txtItem7Qty2" />
+        app:layout_constraintTop_toBottomOf="@+id/txtPage2Item7Qty" />
 
     <TextView
-        android:id="@+id/txtItem9Qty2"
+        android:id="@+id/txtPage2Item9Qty"
         android:layout_width="32dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginTop="21dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txtItem8Qty2" />
+        app:layout_constraintTop_toBottomOf="@+id/txtPage2Item8Qty" />
 
     <TextView
-        android:id="@+id/txtItem10Qty2"
+        android:id="@+id/txtPage2Item10Qty"
         android:layout_width="32dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginTop="21dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txtItem9Qty2" />
+        app:layout_constraintTop_toBottomOf="@+id/txtPage2Item9Qty" />
 
     <TextView
-        android:id="@+id/txtItem1Desc2"
+        android:id="@+id/txtPage2Item1Type"
         android:layout_width="150dp"
         android:layout_height="0dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:textSize="18sp"
-        app:layout_constraintEnd_toStartOf="@+id/txtItem1Cost"
-        app:layout_constraintStart_toEndOf="@+id/txtItem1Qty2"
-        app:layout_constraintTop_toBottomOf="@+id/txtPageOneDesc2" />
+        app:layout_constraintEnd_toStartOf="@+id/txtPage2Item1Cost"
+        app:layout_constraintStart_toEndOf="@+id/txtPage2Item1Qty"
+        app:layout_constraintTop_toBottomOf="@+id/txtPage2Description2" />
 
     <TextView
-        android:id="@+id/txtItem2Desc2"
+        android:id="@+id/txtPage2Item2Type"
         android:layout_width="150dp"
         android:layout_height="0dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="15dp"
         android:textSize="18sp"
-        app:layout_constraintEnd_toStartOf="@+id/txtItem2Cost"
-        app:layout_constraintStart_toEndOf="@+id/txtItem2Qty2"
-        app:layout_constraintTop_toBottomOf="@+id/txtItem1Desc2" />
+        app:layout_constraintEnd_toStartOf="@+id/txtPage2Item2Cost"
+        app:layout_constraintStart_toEndOf="@+id/txtPage2Item2Qty"
+        app:layout_constraintTop_toBottomOf="@+id/txtPage2Item1Type" />
 
     <TextView
-        android:id="@+id/txtItem3Desc2"
+        android:id="@+id/txtPage2Item3Type"
         android:layout_width="150dp"
         android:layout_height="0dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="15dp"
         android:textSize="18sp"
-        app:layout_constraintEnd_toStartOf="@+id/txtItem3Cost"
-        app:layout_constraintStart_toEndOf="@+id/txtItem3Qty2"
-        app:layout_constraintTop_toBottomOf="@+id/txtItem2Desc2" />
+        app:layout_constraintEnd_toStartOf="@+id/txtPage2Item3Cost"
+        app:layout_constraintStart_toEndOf="@+id/txtPage2Item3Qty"
+        app:layout_constraintTop_toBottomOf="@+id/txtPage2Item2Type" />
 
     <TextView
-        android:id="@+id/txtItem4Desc2"
+        android:id="@+id/txtPage2Item4Type"
         android:layout_width="150dp"
         android:layout_height="0dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="15dp"
         android:textSize="18sp"
-        app:layout_constraintEnd_toStartOf="@+id/txtItem4Cost"
-        app:layout_constraintStart_toEndOf="@+id/txtItem4Qty2"
-        app:layout_constraintTop_toBottomOf="@+id/txtItem3Desc2" />
+        app:layout_constraintEnd_toStartOf="@+id/txtPage2Item4Cost"
+        app:layout_constraintStart_toEndOf="@+id/txtPage2Item4Qty"
+        app:layout_constraintTop_toBottomOf="@+id/txtPage2Item3Type" />
 
     <TextView
-        android:id="@+id/txtItem5Desc2"
+        android:id="@+id/txtPage2Item5Type"
         android:layout_width="150dp"
         android:layout_height="0dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="21dp"
-        app:layout_constraintEnd_toStartOf="@+id/txtItem5Cost"
-        app:layout_constraintStart_toEndOf="@+id/txtItem5Qty2"
-        app:layout_constraintTop_toBottomOf="@+id/txtItem4Desc2" />
+        app:layout_constraintEnd_toStartOf="@+id/txtPage2Item5Cost"
+        app:layout_constraintStart_toEndOf="@+id/txtPage2Item5Qty"
+        app:layout_constraintTop_toBottomOf="@+id/txtPage2Item4Type" />
 
     <TextView
-        android:id="@+id/txtItem6Desc2"
+        android:id="@+id/txtPage2Item6Type"
         android:layout_width="150dp"
         android:layout_height="0dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="21dp"
-        app:layout_constraintEnd_toStartOf="@+id/txtItem6Cost"
-        app:layout_constraintStart_toEndOf="@+id/txtItem6Qty2"
-        app:layout_constraintTop_toBottomOf="@+id/txtItem5Desc2" />
+        app:layout_constraintEnd_toStartOf="@+id/txtPage2Item6Cost"
+        app:layout_constraintStart_toEndOf="@+id/txtPage2Item6Qty"
+        app:layout_constraintTop_toBottomOf="@+id/txtPage2Item5Type" />
 
     <TextView
-        android:id="@+id/txtItem7Desc2"
+        android:id="@+id/txtPage2Item7Type"
         android:layout_width="150dp"
         android:layout_height="0dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="21dp"
-        app:layout_constraintEnd_toStartOf="@+id/txtItem7Cost"
-        app:layout_constraintStart_toEndOf="@+id/txtItem7Qty2"
-        app:layout_constraintTop_toBottomOf="@+id/txtItem6Desc2" />
+        app:layout_constraintEnd_toStartOf="@+id/txtPage2Item7Cost"
+        app:layout_constraintStart_toEndOf="@+id/txtPage2Item7Qty"
+        app:layout_constraintTop_toBottomOf="@+id/txtPage2Item6Type" />
 
     <TextView
-        android:id="@+id/txtItem8Desc2"
+        android:id="@+id/txtPage2Item8Type"
         android:layout_width="150dp"
         android:layout_height="0dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="21dp"
-        app:layout_constraintEnd_toStartOf="@+id/txtItem8Cost"
-        app:layout_constraintStart_toEndOf="@+id/txtItem8Qty2"
-        app:layout_constraintTop_toBottomOf="@+id/txtItem7Desc2" />
+        app:layout_constraintEnd_toStartOf="@+id/txtPage2Item8Cost"
+        app:layout_constraintStart_toEndOf="@+id/txtPage2Item8Qty"
+        app:layout_constraintTop_toBottomOf="@+id/txtPage2Item7Type" />
 
     <TextView
-        android:id="@+id/txtItem9Desc2"
+        android:id="@+id/txtPage2Item9Type"
         android:layout_width="150dp"
         android:layout_height="0dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="21dp"
-        app:layout_constraintEnd_toStartOf="@+id/txtItem9Cost"
-        app:layout_constraintStart_toEndOf="@+id/txtItem9Qty2"
-        app:layout_constraintTop_toBottomOf="@+id/txtItem8Desc2" />
+        app:layout_constraintEnd_toStartOf="@+id/txtPage2Item9Cost"
+        app:layout_constraintStart_toEndOf="@+id/txtPage2Item9Qty"
+        app:layout_constraintTop_toBottomOf="@+id/txtPage2Item8Type" />
 
     <TextView
-        android:id="@+id/txtItem10Desc2"
+        android:id="@+id/txtPage2Item10Type"
         android:layout_width="150dp"
         android:layout_height="0dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="21dp"
-        app:layout_constraintEnd_toStartOf="@+id/txtItem10Cost"
-        app:layout_constraintStart_toEndOf="@+id/txtItem10Qty2"
-        app:layout_constraintTop_toBottomOf="@+id/txtItem9Desc2" />
+        app:layout_constraintEnd_toStartOf="@+id/txtPage2Item10Cost"
+        app:layout_constraintStart_toEndOf="@+id/txtPage2Item10Qty"
+        app:layout_constraintTop_toBottomOf="@+id/txtPage2Item9Type" />
 
     <EditText
-        android:id="@+id/txtItem1Cost"
+        android:id="@+id/txtPage2Item1Cost"
         android:layout_width="80dp"
         android:layout_height="0dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:ems="10"
         android:inputType="numberDecimal"
+        android:labelFor="@id/txtPage2Item1Cost"
         android:textSize="14sp"
         app:layout_constraintEnd_toStartOf="@+id/swtItem1Cost"
         app:layout_constraintHorizontal_chainStyle="spread_inside"
-        app:layout_constraintStart_toEndOf="@+id/txtItem1Desc2"
-        app:layout_constraintTop_toBottomOf="@+id/txtPageOneDesc2" />
+        app:layout_constraintStart_toEndOf="@+id/txtPage2Item1Type"
+        app:layout_constraintTop_toBottomOf="@+id/txtPage2Description2" />
 
     <EditText
-        android:id="@+id/txtItem2Cost"
+        android:id="@+id/txtPage2Item2Cost"
         android:layout_width="80dp"
         android:layout_height="0dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:ems="10"
         android:inputType="numberDecimal"
+        android:labelFor="@id/txtPage2Item2Cost"
         android:textSize="14sp"
         app:layout_constraintEnd_toStartOf="@+id/swtItem2Cost"
         app:layout_constraintHorizontal_chainStyle="spread_inside"
-        app:layout_constraintStart_toEndOf="@+id/txtItem2Desc2"
-        app:layout_constraintTop_toBottomOf="@+id/txtItem1Cost" />
+        app:layout_constraintStart_toEndOf="@+id/txtPage2Item2Type"
+        app:layout_constraintTop_toBottomOf="@+id/txtPage2Item1Cost" />
 
     <EditText
-        android:id="@+id/txtItem3Cost"
+        android:id="@+id/txtPage2Item3Cost"
         android:layout_width="80dp"
         android:layout_height="0dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:ems="10"
         android:inputType="numberDecimal"
+        android:labelFor="@id/txtPage2Item3Cost"
         android:textSize="14sp"
         app:layout_constraintEnd_toStartOf="@+id/swtItem3Cost"
         app:layout_constraintHorizontal_chainStyle="spread_inside"
-        app:layout_constraintStart_toEndOf="@+id/txtItem3Desc2"
-        app:layout_constraintTop_toBottomOf="@+id/txtItem2Cost" />
+        app:layout_constraintStart_toEndOf="@+id/txtPage2Item3Type"
+        app:layout_constraintTop_toBottomOf="@+id/txtPage2Item2Cost" />
 
     <EditText
-        android:id="@+id/txtItem4Cost"
+        android:id="@+id/txtPage2Item4Cost"
         android:layout_width="80dp"
         android:layout_height="0dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:ems="10"
         android:inputType="numberDecimal"
+        android:labelFor="@id/txtPage2Item4Cost"
         android:textSize="14sp"
         app:layout_constraintEnd_toStartOf="@+id/swtItem4Cost"
-        app:layout_constraintStart_toEndOf="@+id/txtItem4Desc2"
-        app:layout_constraintTop_toBottomOf="@+id/txtItem3Cost" />
+        app:layout_constraintStart_toEndOf="@+id/txtPage2Item4Type"
+        app:layout_constraintTop_toBottomOf="@+id/txtPage2Item3Cost" />
 
     <EditText
-        android:id="@+id/txtItem5Cost"
+        android:id="@+id/txtPage2Item5Cost"
         android:layout_width="80dp"
         android:layout_height="0dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:ems="10"
         android:inputType="numberDecimal"
+        android:labelFor="@id/txtPage2Item5Cost"
         android:textSize="14sp"
         app:layout_constraintEnd_toStartOf="@+id/swtItem5Cost"
-        app:layout_constraintStart_toEndOf="@+id/txtItem5Desc2"
-        app:layout_constraintTop_toBottomOf="@+id/txtItem4Cost" />
+        app:layout_constraintStart_toEndOf="@+id/txtPage2Item5Type"
+        app:layout_constraintTop_toBottomOf="@+id/txtPage2Item4Cost" />
 
     <EditText
-        android:id="@+id/txtItem6Cost"
+        android:id="@+id/txtPage2Item6Cost"
         android:layout_width="80dp"
         android:layout_height="0dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:ems="10"
         android:inputType="numberDecimal"
+        android:labelFor="@id/txtPage2Item6Cost"
         android:textSize="14sp"
         app:layout_constraintEnd_toStartOf="@+id/swtItem6Cost"
-        app:layout_constraintStart_toEndOf="@+id/txtItem6Desc2"
-        app:layout_constraintTop_toBottomOf="@+id/txtItem5Cost" />
+        app:layout_constraintStart_toEndOf="@+id/txtPage2Item6Type"
+        app:layout_constraintTop_toBottomOf="@+id/txtPage2Item5Cost" />
 
     <EditText
-        android:id="@+id/txtItem7Cost"
+        android:id="@+id/txtPage2Item7Cost"
         android:layout_width="80dp"
         android:layout_height="0dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:ems="10"
         android:inputType="numberDecimal"
+        android:labelFor="@id/txtPage2Item7Cost"
         android:textSize="14sp"
         app:layout_constraintEnd_toStartOf="@+id/swtItem7Cost"
-        app:layout_constraintStart_toEndOf="@+id/txtItem7Desc2"
-        app:layout_constraintTop_toBottomOf="@+id/txtItem6Cost" />
+        app:layout_constraintStart_toEndOf="@+id/txtPage2Item7Type"
+        app:layout_constraintTop_toBottomOf="@+id/txtPage2Item6Cost" />
 
     <EditText
-        android:id="@+id/txtItem8Cost"
+        android:id="@+id/txtPage2Item8Cost"
         android:layout_width="80dp"
         android:layout_height="0dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:ems="10"
         android:inputType="numberDecimal"
+        android:labelFor="@id/txtPage2Item8Cost"
         android:textSize="14sp"
         app:layout_constraintEnd_toStartOf="@+id/swtItem8Cost"
-        app:layout_constraintStart_toEndOf="@+id/txtItem8Desc2"
-        app:layout_constraintTop_toBottomOf="@+id/txtItem7Cost" />
+        app:layout_constraintStart_toEndOf="@+id/txtPage2Item8Type"
+        app:layout_constraintTop_toBottomOf="@+id/txtPage2Item7Cost" />
 
     <EditText
-        android:id="@+id/txtItem9Cost"
+        android:id="@+id/txtPage2Item9Cost"
         android:layout_width="80dp"
         android:layout_height="0dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:ems="10"
         android:inputType="numberDecimal"
+        android:labelFor="@id/txtPage2Item9Cost"
         android:textSize="14sp"
         app:layout_constraintEnd_toStartOf="@+id/swtItem9Cost"
-        app:layout_constraintStart_toEndOf="@+id/txtItem9Desc2"
-        app:layout_constraintTop_toBottomOf="@+id/txtItem8Cost" />
+        app:layout_constraintStart_toEndOf="@+id/txtPage2Item9Type"
+        app:layout_constraintTop_toBottomOf="@+id/txtPage2Item8Cost" />
 
     <EditText
-        android:id="@+id/txtItem10Cost"
+        android:id="@+id/txtPage2Item10Cost"
         android:layout_width="80dp"
         android:layout_height="0dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:ems="10"
         android:inputType="numberDecimal"
+        android:labelFor="@id/txtPage2Item10Cost"
         android:textSize="14sp"
         app:layout_constraintEnd_toStartOf="@+id/swtItem10Cost"
-        app:layout_constraintStart_toEndOf="@+id/txtItem10Desc2"
-        app:layout_constraintTop_toBottomOf="@+id/txtItem9Cost" />
+        app:layout_constraintStart_toEndOf="@+id/txtPage2Item10Type"
+        app:layout_constraintTop_toBottomOf="@+id/txtPage2Item9Cost" />
 
     <Switch
         android:id="@+id/swtItem1Cost"
@@ -396,9 +406,9 @@
         android:layout_height="39dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
-        app:layout_constraintEnd_toStartOf="@+id/cBoxItem1"
-        app:layout_constraintStart_toEndOf="@+id/txtItem1Cost"
-        app:layout_constraintTop_toBottomOf="@+id/txtPageOneDesc2" />
+        app:layout_constraintEnd_toStartOf="@+id/cBoxPage2Item1"
+        app:layout_constraintStart_toEndOf="@+id/txtPage2Item1Cost"
+        app:layout_constraintTop_toBottomOf="@+id/txtPage2Description2" />
 
     <Switch
         android:id="@+id/swtItem2Cost"
@@ -406,8 +416,8 @@
         android:layout_height="39dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
-        app:layout_constraintEnd_toStartOf="@+id/cBoxItem2"
-        app:layout_constraintStart_toEndOf="@+id/txtItem2Cost"
+        app:layout_constraintEnd_toStartOf="@+id/cBoxPage2Item2"
+        app:layout_constraintStart_toEndOf="@+id/txtPage2Item2Cost"
         app:layout_constraintTop_toBottomOf="@+id/swtItem1Cost" />
 
     <Switch
@@ -416,8 +426,8 @@
         android:layout_height="39dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
-        app:layout_constraintEnd_toStartOf="@+id/cBoxItem3"
-        app:layout_constraintStart_toEndOf="@+id/txtItem3Cost"
+        app:layout_constraintEnd_toStartOf="@+id/cBoxPage2Item3"
+        app:layout_constraintStart_toEndOf="@+id/txtPage2Item3Cost"
         app:layout_constraintTop_toBottomOf="@+id/swtItem2Cost" />
 
     <Switch
@@ -426,8 +436,8 @@
         android:layout_height="39dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
-        app:layout_constraintEnd_toStartOf="@+id/cBoxItem4"
-        app:layout_constraintStart_toEndOf="@+id/txtItem4Cost"
+        app:layout_constraintEnd_toStartOf="@+id/cBoxPage2Item4"
+        app:layout_constraintStart_toEndOf="@+id/txtPage2Item4Cost"
         app:layout_constraintTop_toBottomOf="@+id/swtItem3Cost" />
 
     <Switch
@@ -436,8 +446,8 @@
         android:layout_height="39dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
-        app:layout_constraintEnd_toStartOf="@+id/cBoxItem5"
-        app:layout_constraintStart_toEndOf="@+id/txtItem5Cost"
+        app:layout_constraintEnd_toStartOf="@+id/cBoxPage2Item5"
+        app:layout_constraintStart_toEndOf="@+id/txtPage2Item5Cost"
         app:layout_constraintTop_toBottomOf="@+id/swtItem4Cost" />
 
     <Switch
@@ -446,8 +456,8 @@
         android:layout_height="39dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
-        app:layout_constraintEnd_toStartOf="@+id/cBoxItem6"
-        app:layout_constraintStart_toEndOf="@+id/txtItem6Cost"
+        app:layout_constraintEnd_toStartOf="@+id/cBoxPage2Item6"
+        app:layout_constraintStart_toEndOf="@+id/txtPage2Item6Cost"
         app:layout_constraintTop_toBottomOf="@+id/swtItem5Cost" />
 
     <Switch
@@ -456,8 +466,8 @@
         android:layout_height="39dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
-        app:layout_constraintEnd_toStartOf="@+id/cBoxItem7"
-        app:layout_constraintStart_toEndOf="@+id/txtItem7Cost"
+        app:layout_constraintEnd_toStartOf="@+id/cBoxPage2Item7"
+        app:layout_constraintStart_toEndOf="@+id/txtPage2Item7Cost"
         app:layout_constraintTop_toBottomOf="@+id/swtItem6Cost" />
 
     <Switch
@@ -466,8 +476,8 @@
         android:layout_height="39dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
-        app:layout_constraintEnd_toStartOf="@+id/cBoxItem8"
-        app:layout_constraintStart_toEndOf="@+id/txtItem8Cost"
+        app:layout_constraintEnd_toStartOf="@+id/cBoxPage2Item8"
+        app:layout_constraintStart_toEndOf="@+id/txtPage2Item8Cost"
         app:layout_constraintTop_toBottomOf="@+id/swtItem7Cost" />
 
     <Switch
@@ -476,8 +486,8 @@
         android:layout_height="39dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
-        app:layout_constraintEnd_toStartOf="@+id/cBoxItem9"
-        app:layout_constraintStart_toEndOf="@+id/txtItem9Cost"
+        app:layout_constraintEnd_toStartOf="@+id/cBoxPage2Item9"
+        app:layout_constraintStart_toEndOf="@+id/txtPage2Item9Cost"
         app:layout_constraintTop_toBottomOf="@+id/swtItem8Cost" />
 
     <Switch
@@ -486,89 +496,89 @@
         android:layout_height="39dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
-        app:layout_constraintEnd_toStartOf="@+id/cBoxItem10"
-        app:layout_constraintStart_toEndOf="@+id/txtItem10Cost"
+        app:layout_constraintEnd_toStartOf="@+id/cBoxPage2Item10"
+        app:layout_constraintStart_toEndOf="@+id/txtPage2Item10Cost"
         app:layout_constraintTop_toBottomOf="@+id/swtItem9Cost" />
 
     <CheckBox
-        android:id="@+id/cBoxItem1"
+        android:id="@+id/cBoxPage2Item1"
         android:layout_width="wrap_content"
         android:layout_height="39dp"
         android:layout_marginEnd="16dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txtPageOneDesc2" />
+        app:layout_constraintTop_toBottomOf="@+id/txtPage2Description2" />
 
     <CheckBox
-        android:id="@+id/cBoxItem2"
+        android:id="@+id/cBoxPage2Item2"
         android:layout_width="wrap_content"
         android:layout_height="39dp"
         android:layout_marginEnd="16dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/cBoxItem1" />
+        app:layout_constraintTop_toBottomOf="@+id/cBoxPage2Item1" />
 
     <CheckBox
-        android:id="@+id/cBoxItem3"
+        android:id="@+id/cBoxPage2Item3"
         android:layout_width="wrap_content"
         android:layout_height="39dp"
         android:layout_marginEnd="16dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/cBoxItem2" />
+        app:layout_constraintTop_toBottomOf="@+id/cBoxPage2Item2" />
 
     <CheckBox
-        android:id="@+id/cBoxItem4"
+        android:id="@+id/cBoxPage2Item4"
         android:layout_width="wrap_content"
         android:layout_height="39dp"
         android:layout_marginEnd="16dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/cBoxItem3" />
+        app:layout_constraintTop_toBottomOf="@+id/cBoxPage2Item3" />
 
     <CheckBox
-        android:id="@+id/cBoxItem5"
+        android:id="@+id/cBoxPage2Item5"
         android:layout_width="wrap_content"
         android:layout_height="39dp"
         android:layout_marginEnd="16dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/cBoxItem4" />
+        app:layout_constraintTop_toBottomOf="@+id/cBoxPage2Item4" />
 
     <CheckBox
-        android:id="@+id/cBoxItem6"
+        android:id="@+id/cBoxPage2Item6"
         android:layout_width="wrap_content"
         android:layout_height="39dp"
         android:layout_marginEnd="16dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/cBoxItem5" />
+        app:layout_constraintTop_toBottomOf="@+id/cBoxPage2Item5" />
 
     <CheckBox
-        android:id="@+id/cBoxItem7"
+        android:id="@+id/cBoxPage2Item7"
         android:layout_width="wrap_content"
         android:layout_height="39dp"
         android:layout_marginEnd="16dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/cBoxItem6" />
+        app:layout_constraintTop_toBottomOf="@+id/cBoxPage2Item6" />
 
     <CheckBox
-        android:id="@+id/cBoxItem8"
+        android:id="@+id/cBoxPage2Item8"
         android:layout_width="wrap_content"
         android:layout_height="39dp"
         android:layout_marginEnd="16dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/cBoxItem7" />
+        app:layout_constraintTop_toBottomOf="@+id/cBoxPage2Item7" />
 
     <CheckBox
-        android:id="@+id/cBoxItem9"
+        android:id="@+id/cBoxPage2Item9"
         android:layout_width="wrap_content"
         android:layout_height="39dp"
         android:layout_marginEnd="16dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/cBoxItem8" />
+        app:layout_constraintTop_toBottomOf="@+id/cBoxPage2Item8" />
 
     <CheckBox
-        android:id="@+id/cBoxItem10"
+        android:id="@+id/cBoxPage2Item10"
         android:layout_width="wrap_content"
         android:layout_height="39dp"
         android:layout_marginEnd="16dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/cBoxItem9" />
+        app:layout_constraintTop_toBottomOf="@+id/cBoxPage2Item9" />
 
     <Button
         android:id="@+id/btnPage2Back"
@@ -589,5 +599,20 @@
         android:text="@string/btnPageDone"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
+
+    <ToggleButton
+        android:id="@+id/toggleButton2"
+        android:layout_width="70dp"
+        android:layout_height="39dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:text="ToggleButton"
+        android:textOff="Total"
+        android:textOn="Each"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btnPage2Done"
+        app:layout_constraintStart_toEndOf="@+id/btnPage2Back" />
 
 </android.support.constraint.ConstraintLayout>

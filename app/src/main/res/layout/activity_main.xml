@@ -7,7 +7,7 @@
     tools:context="com.example.pjackson.groceryapp.MainActivity">
 
     <TextView
-        android:id="@+id/txtAppHeading"
+        android:id="@+id/txtPage1Heading"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="8dp"
@@ -23,7 +23,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/txtPageOneDesc"
+        android:id="@+id/txtPage1Description"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="16dp"
@@ -36,10 +36,10 @@
         android:textStyle="italic"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txtAppHeading" />
+        app:layout_constraintTop_toBottomOf="@+id/txtPage1Heading" />
 
     <TextView
-        android:id="@+id/txtItemTitle1"
+        android:id="@+id/txtPage1Item1Title"
         android:layout_width="52dp"
         android:layout_height="0dp"
         android:layout_marginStart="8dp"
@@ -47,10 +47,10 @@
         android:text="@string/itemOne"
         android:textColor="@color/colorPrimary"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txtPageOneDesc" />
+        app:layout_constraintTop_toBottomOf="@+id/txtPage1Description" />
 
     <TextView
-        android:id="@+id/txtItemTitle2"
+        android:id="@+id/txtPage1Item2Title"
         android:layout_width="52dp"
         android:layout_height="0dp"
         android:layout_marginStart="8dp"
@@ -58,10 +58,10 @@
         android:text="@string/itemTwo"
         android:textColor="@color/colorPrimary"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txtItemTitle1" />
+        app:layout_constraintTop_toBottomOf="@+id/txtPage1Item1Title" />
 
     <TextView
-        android:id="@+id/txtItemTitle3"
+        android:id="@+id/txtPage1Item3Title"
         android:layout_width="52dp"
         android:layout_height="0dp"
         android:layout_marginStart="8dp"
@@ -69,10 +69,10 @@
         android:text="@string/itemThree"
         android:textColor="@color/colorPrimary"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txtItemTitle2" />
+        app:layout_constraintTop_toBottomOf="@+id/txtPage1Item2Title" />
 
     <TextView
-        android:id="@+id/txtItemTitle4"
+        android:id="@+id/txtPage1Item4Title"
         android:layout_width="52dp"
         android:layout_height="0dp"
         android:layout_marginStart="8dp"
@@ -80,10 +80,10 @@
         android:text="@string/itemFour"
         android:textColor="@color/colorPrimary"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txtItemTitle3" />
+        app:layout_constraintTop_toBottomOf="@+id/txtPage1Item3Title" />
 
     <TextView
-        android:id="@+id/txtItemTitle5"
+        android:id="@+id/txtPage1Item5Title"
         android:layout_width="52dp"
         android:layout_height="0dp"
         android:layout_marginStart="8dp"
@@ -91,10 +91,10 @@
         android:text="@string/itemFive"
         android:textColor="@color/colorPrimary"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txtItemTitle4" />
+        app:layout_constraintTop_toBottomOf="@+id/txtPage1Item4Title" />
 
     <TextView
-        android:id="@+id/txtItemTitle6"
+        android:id="@+id/txtPage1Item6Title"
         android:layout_width="52dp"
         android:layout_height="0dp"
         android:layout_marginStart="8dp"
@@ -102,10 +102,10 @@
         android:text="@string/itemSix"
         android:textColor="@color/colorPrimary"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txtItemTitle5" />
+        app:layout_constraintTop_toBottomOf="@+id/txtPage1Item5Title" />
 
     <TextView
-        android:id="@+id/txtItemTitle7"
+        android:id="@+id/txtPage1Item7Title"
         android:layout_width="52dp"
         android:layout_height="0dp"
         android:layout_marginStart="8dp"
@@ -113,10 +113,10 @@
         android:text="@string/itemSeven"
         android:textColor="@color/colorPrimary"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txtItemTitle6" />
+        app:layout_constraintTop_toBottomOf="@+id/txtPage1Item6Title" />
 
     <TextView
-        android:id="@+id/txtItemTitle8"
+        android:id="@+id/txtPage1Item8Title"
         android:layout_width="52dp"
         android:layout_height="0dp"
         android:layout_marginStart="8dp"
@@ -124,10 +124,10 @@
         android:text="@string/itemEight"
         android:textColor="@color/colorPrimary"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txtItemTitle7" />
+        app:layout_constraintTop_toBottomOf="@+id/txtPage1Item7Title" />
 
     <TextView
-        android:id="@+id/txtItemTitle9"
+        android:id="@+id/txtPage1Item9Title"
         android:layout_width="52dp"
         android:layout_height="0dp"
         android:layout_marginStart="8dp"
@@ -135,10 +135,10 @@
         android:text="@string/itemNine"
         android:textColor="@color/colorPrimary"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txtItemTitle8" />
+        app:layout_constraintTop_toBottomOf="@+id/txtPage1Item8Title" />
 
     <TextView
-        android:id="@+id/txtItemTitle10"
+        android:id="@+id/txtPage1Item10Title"
         android:layout_width="52dp"
         android:layout_height="0dp"
         android:layout_marginStart="8dp"
@@ -146,310 +146,320 @@
         android:text="@string/itemTen"
         android:textColor="@color/colorPrimary"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txtItemTitle9" />
+        app:layout_constraintTop_toBottomOf="@+id/txtPage1Item9Title" />
 
     <Spinner
-        android:id="@+id/spnQtyItem1"
+        android:id="@+id/spnPage1Item1Qty"
         android:layout_width="82dp"
         android:layout_height="0dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:entries="@array/itemQty"
-        app:layout_constraintStart_toEndOf="@+id/txtItemTitle1"
-        app:layout_constraintTop_toBottomOf="@+id/txtPageOneDesc" />
+        app:layout_constraintStart_toEndOf="@+id/txtPage1Item1Title"
+        app:layout_constraintTop_toBottomOf="@+id/txtPage1Description" />
 
     <Spinner
-        android:id="@+id/spnQtyItem2"
+        android:id="@+id/spnPage1Item2Qty"
         android:layout_width="82dp"
         android:layout_height="0dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="16dp"
         android:entries="@array/itemQty"
-        app:layout_constraintStart_toEndOf="@+id/txtItemTitle2"
-        app:layout_constraintTop_toBottomOf="@+id/spnQtyItem1" />
+        app:layout_constraintStart_toEndOf="@+id/txtPage1Item2Title"
+        app:layout_constraintTop_toBottomOf="@+id/spnPage1Item1Qty" />
 
     <Spinner
-        android:id="@+id/spnQtyItem3"
+        android:id="@+id/spnPage1Item3Qty"
         android:layout_width="82dp"
         android:layout_height="0dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="15dp"
         android:entries="@array/itemQty"
-        app:layout_constraintStart_toEndOf="@+id/txtItemTitle3"
-        app:layout_constraintTop_toBottomOf="@+id/spnQtyItem2" />
+        app:layout_constraintStart_toEndOf="@+id/txtPage1Item3Title"
+        app:layout_constraintTop_toBottomOf="@+id/spnPage1Item2Qty" />
 
     <Spinner
-        android:id="@+id/spnQtyItem4"
+        android:id="@+id/spnPage1Item4Qty"
         android:layout_width="82dp"
         android:layout_height="0dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="16dp"
         android:entries="@array/itemQty"
-        app:layout_constraintStart_toEndOf="@+id/txtItemTitle4"
-        app:layout_constraintTop_toBottomOf="@+id/spnQtyItem3" />
+        app:layout_constraintStart_toEndOf="@+id/txtPage1Item4Title"
+        app:layout_constraintTop_toBottomOf="@+id/spnPage1Item3Qty" />
 
     <Spinner
-        android:id="@+id/spnQtyItem5"
+        android:id="@+id/spnPage1Item5Qty"
         android:layout_width="82dp"
         android:layout_height="0dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="15dp"
         android:entries="@array/itemQty"
-        app:layout_constraintStart_toEndOf="@+id/txtItemTitle5"
-        app:layout_constraintTop_toBottomOf="@+id/spnQtyItem4" />
+        app:layout_constraintStart_toEndOf="@+id/txtPage1Item5Title"
+        app:layout_constraintTop_toBottomOf="@+id/spnPage1Item4Qty" />
 
     <Spinner
-        android:id="@+id/spnQtyItem6"
+        android:id="@+id/spnPage1Item6Qty"
         android:layout_width="82dp"
         android:layout_height="0dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="16dp"
         android:entries="@array/itemQty"
-        app:layout_constraintStart_toEndOf="@+id/txtItemTitle6"
-        app:layout_constraintTop_toBottomOf="@+id/spnQtyItem5" />
+        app:layout_constraintStart_toEndOf="@+id/txtPage1Item6Title"
+        app:layout_constraintTop_toBottomOf="@+id/spnPage1Item5Qty" />
 
     <Spinner
-        android:id="@+id/spnQtyItem7"
+        android:id="@+id/spnPage1Item7Qty"
         android:layout_width="82dp"
         android:layout_height="0dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="15dp"
         android:entries="@array/itemQty"
-        app:layout_constraintStart_toEndOf="@+id/txtItemTitle7"
-        app:layout_constraintTop_toBottomOf="@+id/spnQtyItem6" />
+        app:layout_constraintStart_toEndOf="@+id/txtPage1Item7Title"
+        app:layout_constraintTop_toBottomOf="@+id/spnPage1Item6Qty" />
 
     <Spinner
-        android:id="@+id/spnQtyItem8"
+        android:id="@+id/spnPage1Item8Qty"
         android:layout_width="82dp"
         android:layout_height="0dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="16dp"
         android:entries="@array/itemQty"
-        app:layout_constraintStart_toEndOf="@+id/txtItemTitle8"
-        app:layout_constraintTop_toBottomOf="@+id/spnQtyItem7" />
+        app:layout_constraintStart_toEndOf="@+id/txtPage1Item8Title"
+        app:layout_constraintTop_toBottomOf="@+id/spnPage1Item7Qty" />
 
     <Spinner
-        android:id="@+id/spnQtyItem9"
+        android:id="@+id/spnPage1Item9Qty"
         android:layout_width="82dp"
         android:layout_height="0dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="15dp"
         android:entries="@array/itemQty"
-        app:layout_constraintStart_toEndOf="@+id/txtItemTitle9"
-        app:layout_constraintTop_toBottomOf="@+id/spnQtyItem8" />
+        app:layout_constraintStart_toEndOf="@+id/txtPage1Item9Title"
+        app:layout_constraintTop_toBottomOf="@+id/spnPage1Item8Qty" />
 
     <Spinner
-        android:id="@+id/spnQtyItem10"
+        android:id="@+id/spnPage1Item10Qty"
         android:layout_width="82dp"
         android:layout_height="0dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="16dp"
         android:entries="@array/itemQty"
-        app:layout_constraintStart_toEndOf="@+id/txtItemTitle10"
-        app:layout_constraintTop_toBottomOf="@+id/spnQtyItem9" />
+        app:layout_constraintStart_toEndOf="@+id/txtPage1Item10Title"
+        app:layout_constraintTop_toBottomOf="@+id/spnPage1Item9Qty" />
 
     <EditText
-        android:id="@+id/txtItemDesc1"
+        android:id="@+id/txtPage1Item1Type"
         android:layout_width="wrap_content"
         android:layout_height="0dp"
         android:layout_marginStart="8dp"
         android:ems="10"
-        android:hint="e.g. dozen eggs"
+        android:hint="@string/hint1_page1"
         android:inputType="textPersonName"
+        android:labelFor="@id/txtPage1Item1Type"
         android:textSize="14sp"
-        app:layout_constraintStart_toEndOf="@+id/spnQtyItem1"
-        app:layout_constraintTop_toBottomOf="@+id/txtPageOneDesc" />
+        app:layout_constraintStart_toEndOf="@+id/spnPage1Item1Qty"
+        app:layout_constraintTop_toBottomOf="@+id/txtPage1Description" />
 
     <EditText
-        android:id="@+id/txtItemDesc2"
+        android:id="@+id/txtPage1Item2Type"
         android:layout_width="wrap_content"
         android:layout_height="0dp"
         android:layout_marginStart="8dp"
         android:ems="10"
-        android:hint="e.g. pint of milk"
+        android:hint="@string/hint2_page1"
         android:inputType="textPersonName"
+        android:labelFor="@id/txtPage1Item2Type"
         android:textSize="14sp"
-        app:layout_constraintStart_toEndOf="@+id/spnQtyItem2"
-        app:layout_constraintTop_toBottomOf="@+id/txtItemDesc1" />
+        app:layout_constraintStart_toEndOf="@+id/spnPage1Item2Qty"
+        app:layout_constraintTop_toBottomOf="@+id/txtPage1Item1Type" />
 
     <EditText
-        android:id="@+id/txtItemDesc3"
+        android:id="@+id/txtPage1Item3Type"
         android:layout_width="wrap_content"
         android:layout_height="0dp"
         android:layout_marginStart="8dp"
         android:ems="10"
-        android:hint="etc"
+        android:hint="@string/hint3_page1"
         android:inputType="textPersonName"
+        android:labelFor="@id/txtPage1Item3Type"
         android:textSize="14sp"
-        app:layout_constraintStart_toEndOf="@+id/spnQtyItem3"
-        app:layout_constraintTop_toBottomOf="@+id/txtItemDesc2" />
+        app:layout_constraintStart_toEndOf="@+id/spnPage1Item3Qty"
+        app:layout_constraintTop_toBottomOf="@+id/txtPage1Item2Type" />
 
     <EditText
-        android:id="@+id/txtItemDesc4"
-        android:layout_width="wrap_content"
-        android:layout_height="0dp"
-        android:layout_marginStart="8dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:textSize="14sp"
-        app:layout_constraintStart_toEndOf="@+id/spnQtyItem4"
-        app:layout_constraintTop_toBottomOf="@+id/txtItemDesc3" />
-
-    <EditText
-        android:id="@+id/txtItemDesc5"
+        android:id="@+id/txtPage1Item4Type"
         android:layout_width="wrap_content"
         android:layout_height="0dp"
         android:layout_marginStart="8dp"
         android:ems="10"
         android:inputType="textPersonName"
+        android:labelFor="@id/txtPage1Item4Type"
         android:textSize="14sp"
-        app:layout_constraintStart_toEndOf="@+id/spnQtyItem5"
-        app:layout_constraintTop_toBottomOf="@+id/txtItemDesc4" />
+        app:layout_constraintStart_toEndOf="@+id/spnPage1Item4Qty"
+        app:layout_constraintTop_toBottomOf="@+id/txtPage1Item3Type" />
 
     <EditText
-        android:id="@+id/txtItemDesc6"
+        android:id="@+id/txtPage1Item5Type"
         android:layout_width="wrap_content"
         android:layout_height="0dp"
         android:layout_marginStart="8dp"
         android:ems="10"
         android:inputType="textPersonName"
+        android:labelFor="@id/txtPage1Item5Type"
         android:textSize="14sp"
-        app:layout_constraintStart_toEndOf="@+id/spnQtyItem6"
-        app:layout_constraintTop_toBottomOf="@+id/txtItemDesc5" />
+        app:layout_constraintStart_toEndOf="@+id/spnPage1Item5Qty"
+        app:layout_constraintTop_toBottomOf="@+id/txtPage1Item4Type" />
 
     <EditText
-        android:id="@+id/txtItemDesc7"
+        android:id="@+id/txtPage1Item6Type"
         android:layout_width="wrap_content"
         android:layout_height="0dp"
         android:layout_marginStart="8dp"
         android:ems="10"
         android:inputType="textPersonName"
+        android:labelFor="@id/txtPage1Item6Type"
         android:textSize="14sp"
-        app:layout_constraintStart_toEndOf="@+id/spnQtyItem7"
-        app:layout_constraintTop_toBottomOf="@+id/txtItemDesc6" />
+        app:layout_constraintStart_toEndOf="@+id/spnPage1Item6Qty"
+        app:layout_constraintTop_toBottomOf="@+id/txtPage1Item5Type" />
 
     <EditText
-        android:id="@+id/txtItemDesc8"
+        android:id="@+id/txtPage1Item7Type"
         android:layout_width="wrap_content"
         android:layout_height="0dp"
         android:layout_marginStart="8dp"
         android:ems="10"
         android:inputType="textPersonName"
+        android:labelFor="@id/txtPage1Item7Type"
         android:textSize="14sp"
-        app:layout_constraintStart_toEndOf="@+id/spnQtyItem8"
-        app:layout_constraintTop_toBottomOf="@+id/txtItemDesc7" />
+        app:layout_constraintStart_toEndOf="@+id/spnPage1Item7Qty"
+        app:layout_constraintTop_toBottomOf="@+id/txtPage1Item6Type" />
 
     <EditText
-        android:id="@+id/txtItemDesc9"
+        android:id="@+id/txtPage1Item8Type"
         android:layout_width="wrap_content"
         android:layout_height="0dp"
         android:layout_marginStart="8dp"
         android:ems="10"
         android:inputType="textPersonName"
+        android:labelFor="@id/txtPage1Item8Type"
         android:textSize="14sp"
-        app:layout_constraintStart_toEndOf="@+id/spnQtyItem9"
-        app:layout_constraintTop_toBottomOf="@+id/txtItemDesc8" />
+        app:layout_constraintStart_toEndOf="@+id/spnPage1Item8Qty"
+        app:layout_constraintTop_toBottomOf="@+id/txtPage1Item7Type" />
 
     <EditText
-        android:id="@+id/txtItemDesc10"
+        android:id="@+id/txtPage1Item9Type"
         android:layout_width="wrap_content"
         android:layout_height="0dp"
         android:layout_marginStart="8dp"
         android:ems="10"
         android:inputType="textPersonName"
+        android:labelFor="@id/txtPage1Item9Type"
         android:textSize="14sp"
-        app:layout_constraintStart_toEndOf="@+id/spnQtyItem10"
-        app:layout_constraintTop_toBottomOf="@+id/txtItemDesc9" />
+        app:layout_constraintStart_toEndOf="@+id/spnPage1Item9Qty"
+        app:layout_constraintTop_toBottomOf="@+id/txtPage1Item8Type" />
+
+    <EditText
+        android:id="@+id/txtPage1Item10Type"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:labelFor="@id/txtPage1Item10Type"
+        android:textSize="14sp"
+        app:layout_constraintStart_toEndOf="@+id/spnPage1Item10Qty"
+        app:layout_constraintTop_toBottomOf="@+id/txtPage1Item9Type" />
 
     <Switch
-        android:id="@+id/swtItem1"
+        android:id="@+id/swtPage1Item1Send"
         android:layout_width="44dp"
         android:layout_height="40dp"
         android:layout_marginEnd="8dp"
         android:checked="false"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txtPageOneDesc" />
+        app:layout_constraintTop_toBottomOf="@+id/txtPage1Description" />
 
     <Switch
-        android:id="@+id/swtItem2"
+        android:id="@+id/swtPage1Item2Send"
         android:layout_width="44dp"
         android:layout_height="40dp"
         android:layout_marginEnd="8dp"
         android:checked="false"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/swtItem1" />
+        app:layout_constraintTop_toBottomOf="@+id/swtPage1Item1Send" />
 
     <Switch
-        android:id="@+id/swtItem3"
+        android:id="@+id/swtPage1Item3Send"
         android:layout_width="44dp"
         android:layout_height="40dp"
         android:layout_marginEnd="8dp"
         android:checked="false"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/swtItem2" />
+        app:layout_constraintTop_toBottomOf="@+id/swtPage1Item2Send" />
 
     <Switch
-        android:id="@+id/swtItem4"
+        android:id="@+id/swtPage1Item4Send"
         android:layout_width="44dp"
         android:layout_height="39dp"
         android:layout_marginEnd="8dp"
         android:checked="false"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/swtItem3" />
+        app:layout_constraintTop_toBottomOf="@+id/swtPage1Item3Send" />
 
     <Switch
-        android:id="@+id/swtItem5"
+        android:id="@+id/swtPage1Item5Send"
         android:layout_width="44dp"
         android:layout_height="40dp"
         android:layout_marginEnd="8dp"
         android:checked="false"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/swtItem4" />
+        app:layout_constraintTop_toBottomOf="@+id/swtPage1Item4Send" />
 
     <Switch
-        android:id="@+id/swtItem6"
+        android:id="@+id/swtPage1Item6Send"
         android:layout_width="44dp"
         android:layout_height="39dp"
         android:layout_marginEnd="8dp"
         android:checked="false"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/swtItem5" />
+        app:layout_constraintTop_toBottomOf="@+id/swtPage1Item5Send" />
 
     <Switch
-        android:id="@+id/swtItem7"
+        android:id="@+id/swtPage1Item7Send"
         android:layout_width="44dp"
         android:layout_height="40dp"
         android:layout_marginEnd="8dp"
         android:checked="false"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/swtItem6" />
+        app:layout_constraintTop_toBottomOf="@+id/swtPage1Item6Send" />
 
     <Switch
-        android:id="@+id/swtItem8"
+        android:id="@+id/swtPage1Item8Send"
         android:layout_width="44dp"
         android:layout_height="39dp"
         android:layout_marginEnd="8dp"
         android:checked="false"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/swtItem7" />
+        app:layout_constraintTop_toBottomOf="@+id/swtPage1Item7Send" />
 
     <Switch
-        android:id="@+id/swtItem9"
+        android:id="@+id/swtPage1Item9Send"
         android:layout_width="44dp"
         android:layout_height="39dp"
         android:layout_marginEnd="8dp"
         android:checked="false"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/swtItem8" />
+        app:layout_constraintTop_toBottomOf="@+id/swtPage1Item8Send" />
 
     <Switch
-        android:id="@+id/swtItem10"
+        android:id="@+id/swtPage1Item10Send"
         android:layout_width="44dp"
         android:layout_height="39dp"
         android:layout_marginEnd="8dp"
         android:checked="false"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/swtItem9" />
+        app:layout_constraintTop_toBottomOf="@+id/swtPage1Item9Send" />
 
     <Button
         android:id="@+id/btnPage1Clear"
