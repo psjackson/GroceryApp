@@ -30,9 +30,12 @@
     <string name="btnPageBack">Back</string>
     <string name="app_page2_desc">The below items are the ones you selected to track. Check each one as you purchase it and select the cost.</string>
     <string name="app_page2_desc2">Toggling the switch next to an item to on, will cause the app to multiple the cost by the number of items, leaving it off will mean it will count it as the total cost.</string>
+    <string name="app_page3_desc">Below is a summary of your purchases.</string>
     <string name="hint1_page1">e.g. dozen eggs</string>
     <string name="hint2_page1">e.g. pint of milk</string>
     <string name="hint3_page1">etc</string>
     <string name="togEach">Each</string>
     <string name="togTotal">Total</string>
+    <string name="sumHeadingBuy">Summary of the items you bought:</string>
+    <string name="sumHeadingLeft">Summary of the items you did not buy:</string>
 </resources>
