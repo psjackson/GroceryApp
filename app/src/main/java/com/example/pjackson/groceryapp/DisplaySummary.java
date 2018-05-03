@@ -208,6 +208,7 @@ public class DisplaySummary extends AppCompatActivity {
         }
         itemsBoughtSummary.setText(ItemsBought);
 
+
         StringBuilder ItemsRemain = new StringBuilder(500);
         if (itemR1 == null) {
             ItemsRemain.append(buy);
