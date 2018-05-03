@@ -141,9 +141,8 @@ public class DisplaySummary extends AppCompatActivity {
         final TextView itemsBoughtSummary = findViewById(R.id.txtPage3ItemsBuy);
         final TextView itemsRemainSummary = findViewById(R.id.txtPage3ItemsLeft);
 
-        String amount = Double.toString(totalCost);
         DecimalFormat hundredth = new DecimalFormat("#.##");
-        String formattedAmount = hundredth.format(amount);
+        String formattedAmount = hundredth.format(totalCost);
 
         String buyEmpty = ("You did not buy anything on your list.");
         String buy = ("You bought everything on your list.");
